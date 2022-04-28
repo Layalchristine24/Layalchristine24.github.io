@@ -13,14 +13,14 @@ uglyURLs = true
 googleAnalytics = ""
 
 # Copyright
-copyright = "&copy;2021 Your Name"
+copyright = "&copy;2022 Layal Christine Lettry"
 
 [params]
 
   # Metadata for search engines and social sharing
-  author = "Jenny Jones"
+  author = "Layal Christine Lettry"
   description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
-  shareImage = "images/social.jpg"
+  shareImage = "images/background.jpg"
   twitterHandle = "onepagelove"
 
   # Favicon
