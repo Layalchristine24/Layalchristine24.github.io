@@ -1,7 +1,7 @@
 baseurl: /
 languageCode: en-us
 title: My website
-theme: hugo-lithium
+theme: hugo-split-theme
 googleAnalytics: ''
 disqusShortname: ''
 ignoreFiles:
@@ -17,7 +17,7 @@ menu:
     - name: About
       url: /about/
     - name: GitHub
-      url: https://github.com/Layalchristine24/Layalchristine24
+      url: https://github.com/Layalchristine24
     - name: Twitter
       url: https://twitter.com/LettryL
 params:
