@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "https://example.com"
 languageCode = "en-US"
-title = "Split - HTML Template Demo"
+title = "Layal Christine Lettry Website"
 theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 
@@ -50,12 +50,12 @@ copyright = "&copy;2022 Layal Christine Lettry"
       heading = "Connect"
 
       [[params.links.list1.link]]
-        text = "Blog"
-        url = "#"
+        text = "Github"
+        url = "github.com/Layalchristine24"
 
       [[params.links.list1.link]]
         text = "Email"
-        url = "#"
+        url = "mailto:layal.lettry@gmail.com"
 
       [[params.links.list1.link]]
         text = "Newsletter"
@@ -68,32 +68,27 @@ copyright = "&copy;2022 Layal Christine Lettry"
 
       [[params.links.list2.link]]
         text = "Twitter"
-        url = "#"
+        url = "https://twitter.com/LettryL"
 
       [[params.links.list2.link]]
-        text = "Instagram"
-        url = "#"
+        text = "Linkedin"
+        url = "https://www.linkedin.com/in/layal-christine-lettry-529b4471/"
 
-      [[params.links.list2.link]]
-        text = "Dribbble"
-        url = "#"
 
   # Links List #3
   [[params.links]]
     [params.links.list3]
-      heading = "Network"
+      heading = "Research"
 
       [[params.links.list3.link]]
-        text = "Link One"
-        url = "#"
+        text = "ResearchGate"
+        url = "www.researchgate.net/profile/Layal-Lettry"
 
       [[params.links.list3.link]]
-        text = "Link Two"
-        url = "#"
+        text = "Academia"
+        url = "unifr.academia.edu/LayalChristineLettry"
 
-      [[params.links.list3.link]]
-        text = "Link Three"
-        url = "#"
+    
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.
