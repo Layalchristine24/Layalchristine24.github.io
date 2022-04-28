@@ -51,15 +51,12 @@ copyright = "&copy;2022 Layal Christine Lettry"
 
       [[params.links.list1.link]]
         text = "Github"
-        url = "github.com/Layalchristine24"
+        url = "https://github.com/Layalchristine24"
 
       [[params.links.list1.link]]
         text = "Email"
         url = "mailto:layal.lettry@gmail.com"
 
-      [[params.links.list1.link]]
-        text = "Newsletter"
-        url = "#"
 
   # Links List #2
   [[params.links]]
@@ -82,11 +79,11 @@ copyright = "&copy;2022 Layal Christine Lettry"
 
       [[params.links.list3.link]]
         text = "ResearchGate"
-        url = "www.researchgate.net/profile/Layal-Lettry"
+        url = "https://www.researchgate.net/profile/Layal-Lettry"
 
       [[params.links.list3.link]]
         text = "Academia"
-        url = "unifr.academia.edu/LayalChristineLettry"
+        url = "https://unifr.academia.edu/LayalChristineLettry"
 
     
 
