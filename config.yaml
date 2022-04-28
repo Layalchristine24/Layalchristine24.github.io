@@ -1,7 +1,7 @@
 baseurl: /
 languageCode: en-us
 title: My website
-theme: hugo-lithium
+theme: "hugo-split-theme"
 googleAnalytics: ''
 disqusShortname: ''
 ignoreFiles:
