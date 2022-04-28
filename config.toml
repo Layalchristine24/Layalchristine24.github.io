@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://example.com"
+baseURL = /
 languageCode = "en-US"
 title = "Layal Christine Lettry Website"
 theme = "hugo-split-theme"
