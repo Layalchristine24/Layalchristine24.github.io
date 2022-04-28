@@ -17,9 +17,9 @@ menu:
     - name: About
       url: /about/
     - name: GitHub
-      url: https://github.com/rstudio/blogdown
+      url: https://github.com/Layalchristine24/Layalchristine24
     - name: Twitter
-      url: https://twitter.com/rstudio
+      url: https://twitter.com/LettryL
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
