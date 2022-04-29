@@ -2,7 +2,7 @@
 baseURL = "https://example.com"
 languageCode = "en-US"
 title = "Layal Christine Lettry Website"
-theme = "hugo-split-theme"
+theme = "starter-hugo-academic"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 
 # Local preview mode
