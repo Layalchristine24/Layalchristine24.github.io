@@ -1,17 +1,15 @@
 ---
 ## Configure page content in wide column
-title: "Why apéro?" # leave blank to exclude
+title: "What are my current projects?" # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  Apéro is a unique kind of casual get-together in French culture, when you gather with friends and get to know each other better over some apéritifs, snacks, and anything in between. A good apéro is one where you'd happily spend a few hours just hanging out.
-  
-  I hope this theme helps you create your own virtual apéro. A place where you and your site's visitors enjoy spending time, and one that helps folks get to know you better. 
-show_outro: true
+ I am currently working on the clustering of the Swiss Pension Register using Kamila Clustering Method with the R package [kamila](https://github.com/ahfoss/kamila) of A. Foss et al. (2016) and A. Foss et al. (2018) and on classification methods. I would like to apply machine learning methods (like [Transformation Forests](https://github.com/cran/trtf)) on the Swiss Pension Register and develop the Transformation Forest in a time dimension. I also intend to develop a Shiny Web App on financial stocks indicators (cf. [stock-analysis repository](https://github.com/Layalchristine24/stock-analysis)).
+
 outro: |
-  <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
+
 ---
 
 ** index doesn't contain a body, just front matter above.

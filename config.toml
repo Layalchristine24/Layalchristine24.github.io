@@ -90,20 +90,12 @@ enableEmoji = true
       icon_pack = "fab"
       url       = "https://github.com/Layalchristine24"
   [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.facebook.com/layal.pipoz"
-  [[params.social]]
-      icon      = "instagram" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.instagram.com/nightschristine/"
-  [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://twitter.com/LettryL"
   [[params.social]]
-      icon      = "linkedin" # icon name without the 'fa-'
-      icon_pack = "ai"
+      icon      = "linkedin-in" # icon name without the 'fa-'
+      icon_pack = "fab"
       url       = "https://www.linkedin.com/in/layal-christine-lettry-529b4471/"
   [[params.social]]
       icon      = "researchgate" # icon name without the 'fa-'
@@ -111,8 +103,12 @@ enableEmoji = true
       url       = "https://www.researchgate.net/profile/Layal-Lettry"
   [[params.social]]
       icon      = "academia" # icon name without the 'fa-'
-      icon_pack = "fas"
+      icon_pack = "ai"
       url       = "https://unifr.academia.edu/LayalChristineLettry"
+  [[params.social]]
+      icon      = "google-scholar" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "https://scholar.google.com/citations?user=YxD9LGQAAAAJ&hl=fr"
 
 [taxonomies]
   category = "categories"
@@ -122,8 +118,8 @@ enableEmoji = true
 [menu]
   # Configure header 
   [[menu.header]]
-    name = "About"
-    title = "About Blogophonic"
+    name = "About me"
+    title = "About me"
     url = "/about/"
     weight = 1
   [[menu.header]]
