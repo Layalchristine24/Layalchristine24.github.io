@@ -16,5 +16,18 @@ blogdown::check_site()
 blogdown::install_theme("escalate/hugo-split-theme")
 blogdown::install_theme("wowchemy/starter-academic")
 
+blogdown::find_hugo('all')
+blogdown::config_Rprofile()
+blogdown::check_hugo()
+blogdown::config_netlify()
+blogdown::remove_hugo()
+# make sure your project is either backed up or under version control
+blogdown::bundle_site(".", output = ".")
 
-# This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium).
+remotes::install_github('rstudio/blogdown', force = TRUE)
+
+
+R.version.string
+# install.packages("rstudioapi")
+rstudioapi::getVersion()
+blogdown::install_theme("hugo-apero/hugo-apero")
