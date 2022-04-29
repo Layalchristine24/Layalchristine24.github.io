@@ -101,22 +101,22 @@ enableEmoji = true
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://twitter.com/LettryL"
- [[params.social]]
-      icon      = "Linkedin" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.linkedin.com/in/layal-christine-lettry-529b4471/"
- [[params.social]]
-      icon      = "ResearchGate" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.researchgate.net/profile/Layal-Lettry"
-[[params.social]]
-      icon      = "Academia" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://unifr.academia.edu/LayalChristineLettry"
-[[params.social]]
-      icon      = "Google Scholar" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://scholar.google.com/citations?user=YxD9LGQAAAAJ&hl=fr"
+# [[params.social]]
+#      icon      = "Linkedin" # icon name without the 'fa-'
+#      icon_pack = "fab"
+#      url       = "https://www.linkedin.com/in/layal-christine-lettry-529b4471/"
+# [[params.social]]
+#      icon      = "ResearchGate" # icon name without the 'fa-'
+#      icon_pack = "fab"
+#      url       = "https://www.researchgate.net/profile/Layal-Lettry"
+#[[params.social]]
+#      icon      = "Academia" # icon name without the 'fa-'
+#      icon_pack = "fab"
+#      url       = "https://unifr.academia.edu/LayalChristineLettry"
+#[[params.social]]
+#      icon      = "Google Scholar" # icon name without the 'fa-'
+#      icon_pack = "fab"
+#      url       = "https://scholar.google.com/citations?user=YxD9LGQAAAAJ&hl=fr"
 
 
 
