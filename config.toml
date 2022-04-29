@@ -102,17 +102,17 @@ enableEmoji = true
       icon_pack = "fab"
       url       = "https://twitter.com/LettryL"
   [[params.social]]
-      icon      = "impactstory" # icon name without the 'fa-'
+      icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "ai"
-      url       = "https://impactstory.org/u/0000-0002-8082-1890"
+      url       = "https://www.linkedin.com/in/layal-christine-lettry-529b4471/"
   [[params.social]]
-      icon      = "orcid" # icon name without the 'fa-'
+      icon      = "researchgate" # icon name without the 'fa-'
       icon_pack = "ai"
-      url       = "http://orcid.org/0000-0002-8082-1890"
+      url       = "https://www.researchgate.net/profile/Layal-Lettry"
   [[params.social]]
-      icon      = "rss" # icon name without the 'fa-'
+      icon      = "academia" # icon name without the 'fa-'
       icon_pack = "fas"
-      url       = "/blog/index.xml"
+      url       = "https://unifr.academia.edu/LayalChristineLettry"
 
 [taxonomies]
   category = "categories"
