@@ -1,18 +1,20 @@
 ---
 ## Configure sidebar content in narrow column
-author: "Hugo Apéro"
-role: "A Hugo theme"
+author: "Layal Christine Lettry"
+role: "Econometrician"
 avatar_shape: rounded # circle, square, rounded, leave blank to exclude
 show_social_links: true # specify social accounts in site config
-audio_link_label: "How to say my name" # leave blank to exclude
-link_list_label: "Interests" # bookmarks, elsewhere, etc.
+audio_link_label: "" # leave blank to exclude
+link_list_label: "Books and Interests" # bookmarks, elsewhere, etc.
 link_list:
-- name: Paris
-  url: https://en.wikipedia.org/wiki/Paris
-- name: Pastries
-  url: https://en.wikipedia.org/wiki/Pastry
-- name: People
-  url: https://en.wikipedia.org/wiki/People
+- name: An Introduction to Statistical Learning (Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani)
+  url: https://link.springer.com/content/pdf/10.1007/978-1-0716-1418-1.pdf
+- name: The Elements of Statistical Learning (Trevor Hastie, Robert Tibshirani, Jerome Friedman)
+  url: https://hastie.su.domains/Papers/ESLII.pdf
+- name: Econometrics (Fumio Hayashi)
+  url: https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxlY29ub21ldHJpY3NpdGFtfGd4OjYyMTU3YjczNWIwZTRkZjI
+- name: R for Data Science (Hadley Wickham, Garrett Grolemund)
+  url: https://r4ds.had.co.nz
 ---
 
 ** index doesn't contain a body, just front matter above.
