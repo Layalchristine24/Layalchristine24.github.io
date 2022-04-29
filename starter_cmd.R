@@ -14,4 +14,7 @@ blogdown::serve_site()
 
 blogdown::check_site()
 blogdown::install_theme("escalate/hugo-split-theme")
+blogdown::install_theme("wowchemy/starter-academic")
+
+
 # This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium).
