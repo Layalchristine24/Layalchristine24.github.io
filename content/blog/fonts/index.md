@@ -1,16 +1,19 @@
 ---
-title: "Style your site typography"
-subtitle: "Use an embedded font (no CSS required!), rely on system fonts reliably using Tachyons, or bring your own font files- your choice."
-excerpt: "This theme offers three ways to customize your site's fonts. Choose from 6 embedded font options, including 3 serif and 3 sans-serif fonts, or rely on system fonts with reliable fallbacks using Tachyons. You may also bring your own font files (CSS required!)."
-date: 2021-01-27
-author: "Alison Hill"
-draft: false
-tags:
-  - style
+author: Alison Hill
 categories:
-  - Theme Features
-# layout options: single, single-sidebar
+- Theme Features
+date: "2021-01-27"
+draft: false
+excerpt: This theme offers three ways to customize your site's fonts. Choose from
+  6 embedded font options, including 3 serif and 3 sans-serif fonts, or rely on system
+  fonts with reliable fallbacks using Tachyons. You may also bring your own font files
+  (CSS required!).
 layout: single
+subtitle: Use an embedded font (no CSS required!), rely on system fonts reliably using
+  Tachyons, or bring your own font files- your choice.
+tags:
+- style
+title: Style your site typography
 ---
 
 As with [color themes](../color-themes), you can completely customize your site's fonts within minutes of creating a new site. How you do it depends on how much control and customization you need.

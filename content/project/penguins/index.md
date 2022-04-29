@@ -1,18 +1,15 @@
 ---
-title: "Palmer Penguins"
-subtitle: ""
-excerpt: "Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites."
-date: 2019-07-02
-author: "Eric Anderson"
-featured: true
-draft: false
-tags:
-- hugo-site
+author: Eric Anderson
 categories:
 - Theme Features
 - R
 - package
-# layout options: single or single-sidebar
+date: "2019-07-02"
+draft: false
+excerpt: Grid is the very first CSS module created specifically to solve the layout
+  problems we’ve all been hacking our way around for as long as we’ve been making
+  websites.
+featured: true
 layout: single-sidebar
 links:
 - icon: door-open
@@ -27,6 +24,10 @@ links:
   icon_pack: far
   name: Blog post
   url: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/
+subtitle: ""
+tags:
+- hugo-site
+title: Palmer Penguins
 ---
 
 ### “Grid is the very first CSS module created specifically to solve the layout problems we've all been hacking our way around for as long as we've been making websites.”

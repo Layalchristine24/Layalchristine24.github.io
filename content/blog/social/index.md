@@ -1,14 +1,17 @@
 ---
-title: "Set up your social"
-subtitle: "Social icons may appear on several pages throughout your site. Learn how to set them up, and control where they show up."
-excerpt: "This theme offers built-in Font Awesome icons for organizing your collection of social accounts and their links. Use icons to help visitors find you wherever you want to be found, and learn how to show or hide them in your site's header, footer, homepage, about page, and contact form."
-date: 2021-01-28
-author: "Alison Hill & Eric Anderson"
-draft: false
-# layout options: single, single-sidebar
-layout: single
+author: Alison Hill & Eric Anderson
 categories:
 - Theme Features
+date: "2021-01-28"
+draft: false
+excerpt: This theme offers built-in Font Awesome icons for organizing your collection
+  of social accounts and their links. Use icons to help visitors find you wherever
+  you want to be found, and learn how to show or hide them in your site's header,
+  footer, homepage, about page, and contact form.
+layout: single
+subtitle: Social icons may appear on several pages throughout your site. Learn how
+  to set them up, and control where they show up.
+title: Set up your social
 ---
 
 There are five places where you can choose to show social icons. Here is the tl;dr:

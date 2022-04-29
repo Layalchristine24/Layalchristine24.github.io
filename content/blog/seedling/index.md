@@ -1,14 +1,13 @@
 ---
-title: "Using panelsets"
-subtitle: "How to add panelsets in plain markdown posts."
-excerpt: "Add tabbed sections to your posts."
-date: 2021-01-02
-author: "Alison Hill"
-draft: false
-# layout options: single, single-sidebar
-layout: single
+author: Alison Hill
 categories:
 - Theme features
+date: "2021-01-02"
+draft: false
+excerpt: Add tabbed sections to your posts.
+layout: single
+subtitle: How to add panelsets in plain markdown posts.
+title: Using panelsets
 ---
 
 Courtesy of panelset.js by Garrick Aden-Buie, from his xaringanExtra package: https://pkg.garrickadenbuie.com/xaringanExtra/#/panelset

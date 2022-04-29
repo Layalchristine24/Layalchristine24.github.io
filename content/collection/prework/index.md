@@ -1,10 +1,10 @@
 ---
-title: "Prework"
-weight: 1
-subtitle: ""
-excerpt: "How to prepare ahead of time."
-date: 2021-01-01
+date: "2021-01-01"
 draft: false
+excerpt: How to prepare ahead of time.
+subtitle: ""
+title: Prework
+weight: 1
 ---
 
 Welcome to the [Introducing Yourself Online](/) workshop! We look forward to meeting you. Before attending the workshop, please complete the following prework.
