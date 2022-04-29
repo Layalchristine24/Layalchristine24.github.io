@@ -31,3 +31,7 @@ R.version.string
 # install.packages("rstudioapi")
 rstudioapi::getVersion()
 blogdown::install_theme("hugo-apero/hugo-apero")
+
+blogdown::install_theme(theme = "hugo-apero/hugo-apero",
+                        update_config = FALSE, 
+                        force = TRUE)
