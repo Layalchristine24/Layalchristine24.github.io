@@ -12,4 +12,4 @@ I have been working as an econometrician in the Mathematics sector for the Feder
 
 On behalf of the FSIO, I have undertaken a research project in parallel with my office job as a PhD Student in Economics and Social Sciences at the University of Fribourg (Switzerland) and have become a member of the [ASAM Group](www.unifr.ch/inf/asam/en/) (Applied Statistics and Modelling).
 
-I love working with R !
+Last but not least I love working with R !

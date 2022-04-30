@@ -5,9 +5,9 @@ categories:
 - clustering
 - R
 - package
-date: "2021-08-18"
+date: "2022-04-30"
 draft: false
-excerpt: Testing classification methods on the arbitrarily clustered Swiss pension register (private GitHub repository)
+excerpt: My exploratory project (private GitHub repository)
 layout: single
 links:
 - icon: github
@@ -17,11 +17,26 @@ links:
 subtitle: forestoasi R package
 tags:
 - hugo-site
-title: forestoasi
+title: forestoasi R package
 ---
 # Testing classification methods on the Swiss Pension Register
 ---
 
+## Description of the project
 
-This R package aims to test the estimation power of some classification methods which are applied to the arbitrarily clustered Swiss pension register. By doing this, it will be possible to discriminate between several methods in order to evaluate the feasibility of estimating the annual average determinant revenue (AADR) only with some sociodemographic characteristics.
+This project is about testing the estimation power of some classification methods which are applied to the arbitrarily clustered Swiss pension register. It is then possible to compare the performance of several methods in order to evaluate the feasibility of estimating the annual average determinant revenue (AADR) only with some sociodemographic characteristics.
 
+## Application
+
+The following methods were applied on the arbitrarily clustered Swiss pension register: 
+- Linear Discriminant Analysis, 
+- Logit Discriminant Analysis, 
+- Splines, 
+- MARS, 
+- Classification trees.
+
+## Evaluation of the results
+
+As the performance of the methods mentioned above did not give satisfactory results, 
+we had to find a better way to cluster the pensions register. This is the role 
+of my [rrclust project](https://layalchristinelettry.rbind.io/project/rrclust/) using the [kamila clustering algorithm](https://github.com/ahfoss/kamila) of A. Foss et al. (2016) and A. Foss et al. (2018). 
