@@ -15,7 +15,7 @@ links:
   icon_pack: fab
   name: website
   url: https://onlinelibrary.wiley.com/doi/10.1002/jae.2765
-subtitle:  Research article on direct and indirect effects of continuous treatments based on generalized propensity score weighting
+subtitle: Martin Huber, Yu-Chin Hsu, Ying-Ying Lee, Layal Lettry
 tags:
 - hugo-site
 title:  Research article on direct and indirect effects of continuous treatments based on generalized propensity score weighting
@@ -30,9 +30,9 @@ This paper proposes semi- and nonparametric methods for disentangling the total 
 
 I cleaned the dataset Job Corps and built the necessary variables for the study. The most important are:
 
-- the continuous treatment variable $D$ : the total hours spent either in academic or vocational classes in the 12 months following the program assignment according to the survey;
-- the mcontinuous mediator variables $M$: the proportion of weeks employed in the second year;
-- the outcome variable $Y$: criminal behavior, namely the number of times
+- the continuous treatment variable (D): the total hours spent either in academic or vocational classes in the 12 months following the program assignment according to the survey;
+- the mcontinuous mediator variables (M): the proportion of weeks employed in the second year;
+- the outcome variable (Y): criminal behavior, namely the number of times
 the individual was arrested by the police in the fourth year after the random assignment.
 
 Please consult the [research paper](https://onlinelibrary.wiley.com/doi/10.1002/jae.2765) p. 825-826 for more information.
