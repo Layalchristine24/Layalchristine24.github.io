@@ -5,7 +5,7 @@ categories:
 - clustering
 - R
 - package
-date: "2022-04-30"
+date: "2022-04-13"
 draft: false
 excerpt: My clustering project (private GitHub repository)
 layout: single
@@ -14,7 +14,7 @@ links:
   icon_pack: fab
   name: code
   url: https://github.com/asam-group/rrclust
-subtitle: An R Package
+subtitle: rrclust R Package
 tags:
 - hugo-site
 title: rrclust
