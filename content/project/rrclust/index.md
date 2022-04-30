@@ -6,7 +6,7 @@ categories:
 - package
 date: "2022-04-30"
 draft: false
-excerpt: My clustering project
+excerpt: My clustering project (private GitHub repository)
 layout: single
 links:
 - icon: github
