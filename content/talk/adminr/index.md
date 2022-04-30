@@ -7,7 +7,7 @@ date_end: "2019-09-19"
 featured: true
 show_post_time: false
 event: "meetup::adminr(2019)"
-event_url: https://global.rstudio.com
+event_url: https://www.meetup.com/fr-FR/adminR/events/263835294/
 author: "Layal Christine Lettry"
 location: "Fribourg, Switzerland"
 draft: false
