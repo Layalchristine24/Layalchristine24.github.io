@@ -6,7 +6,7 @@ date: 2018-08-28
 date_end: "2018-08-28"
 featured: true
 show_post_time: false
-event: "jss(2018)"
+event: "Swiss Statistics Meeting 2018"
 event_url: https://www.statistiktage.ch/fr/archives-fr/2018
 author: "Layal Christine Lettry"
 location: "Zurich, Switzerland"
@@ -14,7 +14,7 @@ draft: false
 # layout options: single, single-sidebar
 layout: single
 categories:
-- workshop
+- conference
 links:
 - icon: door-open
   icon_pack: fas

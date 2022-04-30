@@ -6,7 +6,7 @@ date: 2019-09-19
 date_end: "2019-09-19"
 featured: true
 show_post_time: false
-event: "meetup::adminr(2019)"
+event: "Meetup adminR (September 2019)"
 event_url: https://www.meetup.com/fr-FR/adminR/events/263835294/
 author: "Layal Christine Lettry"
 location: "Fribourg, Switzerland"
@@ -14,7 +14,7 @@ draft: false
 # layout options: single, single-sidebar
 layout: single
 categories:
-- workshop
+- meetup
 links:
 - icon: door-open
   icon_pack: fas
