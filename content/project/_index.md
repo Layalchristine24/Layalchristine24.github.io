@@ -1,5 +1,5 @@
 ---
-author: The R Markdown Team @RStudio
+author: Layal Christine Lettry
 cascade:
   show_author_byline: true
   show_comments: false
@@ -15,7 +15,7 @@ show_button_links: false
 show_post_date: false
 show_post_thumbnail: true
 sidebar:
-  author: The R Markdown Team @RStudio
+  author: Layal Christine Lettry
   description: "Here are my projects!\nSome are stored in a private GitHub repository. \n Please contact me for more information.\n"
   show_sidebar_adunit: false
   text_link_label: ""
