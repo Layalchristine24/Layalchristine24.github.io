@@ -2,7 +2,7 @@
 date: "2019-02-25T13:38:41-06:00"
 description: Please use this form to make suggestions about work or topics related to my research and interests.
 draft: false
-formspree_form_id: layal.lettry@gmail.com
+formspree_form_id: https://formspree.io/f/mjvlpaed
 layout: split-right
 name: Contact Us Form
 show_poweredby_formspree: true
