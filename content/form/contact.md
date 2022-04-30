@@ -1,10 +1,8 @@
 ---
 date: "2019-02-25T13:38:41-06:00"
-description: This template has a **contact-us** form built right in. All you need
-  to do is add a valid recipient form-id to the front matter of this form page and
-  you're ready to receive submissions.
+description: Please use this form to make suggestions about work or topics related to my research and interests.
 draft: false
-formspree_form_id: id-from-formspree
+formspree_form_id: layal.lettry@gmail.com
 layout: split-right
 name: Contact Us Form
 show_poweredby_formspree: true
