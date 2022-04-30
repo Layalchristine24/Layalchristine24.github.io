@@ -43,7 +43,7 @@ enableEmoji = true
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  twitter = "LettryL"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
@@ -71,8 +71,8 @@ enableEmoji = true
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
     use_utterances = true
-    repo_name = "apreshill/apero"
-    issue_term = "pathname" # url, pathname, or title
+    repo_name = "Layalchristine24/Layalchristine24.github.io"
+    issue_term = "comments" # url, pathname, or title
     theme = "boxy-light"
     label = "comments :crystal_ball:"
 
