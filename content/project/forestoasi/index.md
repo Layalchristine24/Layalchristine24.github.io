@@ -14,7 +14,7 @@ links:
   icon_pack: fab
   name: code
   url: https://github.com/Layalchristine24/forestoasi
-subtitle: forestoasi R package
+subtitle: Applying classification methods on an arbitrarily clustered dataset
 tags:
 - hugo-site
 title: forestoasi R package

@@ -14,7 +14,7 @@ links:
   icon_pack: fab
   name: code
   url: https://github.com/asam-group/rrclust
-subtitle: rrclust R Package
+subtitle: Applying kamila clustering algorithm on Swiss pension register
 tags:
 - hugo-site
 title: rrclust R package

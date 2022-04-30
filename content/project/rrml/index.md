@@ -14,7 +14,7 @@ links:
   icon_pack: fab
   name: code
   url: https://github.com/asam-group/rrml
-subtitle: rrml R Package
+subtitle: Applying machine learning and classification methods on a kamila-clustered dataset
 tags:
 - hugo-site
 title: rrml R package

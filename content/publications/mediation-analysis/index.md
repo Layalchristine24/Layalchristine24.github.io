@@ -1,47 +1,38 @@
 ---
 author: Layal Christine Lettry
 categories:
-- kamila
-- clustering
+- mediation analysis
+- continuous treatments 
+- generalized propensity score weighting
 - R
 - package
-date: "2022-04-30"
+date: "2020-04-14"
 draft: false
-excerpt: My clustering project (private GitHub repository)
+excerpt: Research article on direct and indirect effects of continuous treatments based on generalized propensity score weighting
 layout: single
 links:
-- icon: github
+- icon: website
   icon_pack: fab
-  name: code
-  url: https://github.com/asam-group/rrclust
-subtitle: rrclust R Package
+  name: website
+  url: https://onlinelibrary.wiley.com/doi/10.1002/jae.2765
+subtitle:  Research article on direct and indirect effects of continuous treatments based on generalized propensity score weighting
 tags:
 - hugo-site
-title: rrclust R package
+title:  Research article on direct and indirect effects of continuous treatments based on generalized propensity score weighting
 ---
-# Clustering the Swiss Pension Register
+# Direct and indirect effects of continuous treatments based on generalized propensity score weighting
 ---
 
-## Problematic
+## Summary
+This paper proposes semi- and nonparametric methods for disentangling the total causal effect of a continuous treatment on an outcome variable into its natural direct effect and the indirect effect that operates through one or several intermediate variables called mediators jointly. Our approach is based on weighting observations by the inverse of two versions of the generalized propensity score (GPS), namely the conditional density of treatment either given observed covariates or given covariates and the mediator. Our effect estimators are shown to be asymptotically normal when the GPS is estimated by either a parametric or a nonparametric kernel-based method. We also provide a simulation study and an empirical illustration based on the Job Corps experimental study.
 
-The anonymous data of the Swiss Pension Register (PR) are typically used to estimate and project (in the short, middle and long term) the revenues and the expenditures of the Old-Age and Survivors’ Insurance (OASI). In this perspective, it is essential to have a clear look at the register's main statistical features. To better understand it and benefit more from its richness, we propose analysing the raw data by an appropriate clustering method.
+## My contribution
 
-We face three main difficulties: 
+I cleaned the dataset Job Corps and built the necessary variables for the study. The most important are:
 
-i) As not only continuous but also nominal or categorical variables structure the register, we have to choose a clustering method that considers any types of variables;
+- the continuous treatment variable $D$ : the total hours spent either in academic or vocational classes in the 12 months following the program assignment according to the survey;
+- the mcontinuous mediator variables $M$: the proportion of weeks employed in the second year;
+- the outcome variable $Y$: criminal behavior, namely the number of times
+the individual was arrested by the police in the fourth year after the random assignment.
 
-ii) The a priori number of clusters should be in the first step determined, and thus the question of how to fix it is essential; 
-
-iii) The method should run over big data.
-
-## [kamila](https://github.com/ahfoss/kamila) Method
-
-Recently, A. Foss et al. (2016) and A. H. Foss and Markatou (2018) proposed the [kamila](https://github.com/ahfoss/kamila) Method (KAy-means for MIxed LArge data), which is specifically designed to manage a clustering process for mixed distributions. 
-Furthermore, a simple rewriting of the [kamila](https://github.com/ahfoss/kamila)'s algorithm permits an easy implementation in a map-reduce framework like Hadoop, thus being run on very large data sets. 
-On the other hand, Tibshirani and Walther (2005) advocate the use of the "Prediction Strength" as a measure to find the optimal number of clusters. 
-
-We applied the [kamila](https://github.com/ahfoss/kamila) clustering method on the more than 2 000 000 observations of the PR data. 
-The technique allows us to determine the optimal number of clusters. 
-On this basis, we can analyse the partition of our data. Indeed, each cluster is then analysed, and its principal features are described. 
-As a result, it becomes possible to recognise the similarities and dissimilarities between the OASI pensioners subgroups according to their socio-demographic characteristics. 
-These pieces of information are crucial to predicting revenues and expenditures of the OASI.
+Please consult the [research paper](https://onlinelibrary.wiley.com/doi/10.1002/jae.2765) p. 825-826 for more information.

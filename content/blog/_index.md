@@ -1,7 +1,7 @@
 ---
-author: The R Markdown Team @RStudio
+author: Layal Christine Lettry
 cascade:
-  author: The R Markdown Team @RStudio
+  author: Layal Christine Lettry
   show_author_byline: true
   show_comments: true
   show_post_date: true
@@ -16,7 +16,7 @@ show_button_links: false
 show_post_date: true
 show_post_thumbnail: true
 sidebar:
-  author: The R Markdown Team @RStudio
+  author: Layal Christine Lettry
   description: "This is a place where I share events and my interests with you.\n"
   show_sidebar_adunit: true
   text_link_label: Subscribe via RSS
