@@ -8,7 +8,7 @@ categories:
 - Phoenix
 date: "2018-12-19"
 draft: false
-excerpt: Projection model of the Old-age and survivor's insurance (OASI) expenses
+excerpt: Standardization of the OASI's expenses model in R
 layout: single
 links:
 - icon: website
@@ -18,7 +18,7 @@ links:
 subtitle: Layal Christine Lettry (Pipoz)
 tags:
 - hugo-site
-title:  Modèle de projection des dépenses de l’AVS
+title:  Projection model of the Old-age and survivor's insurance (OASI) expenses
 ---
 # Projection model of the Old-age and survivor's insurance (OASI) expenses
 ---
