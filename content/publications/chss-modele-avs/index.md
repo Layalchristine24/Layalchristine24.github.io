@@ -1,12 +1,12 @@
 ---
 author: Layal Christine Lettry
 categories:
-- mediation analysis
-- continuous treatments 
-- generalized propensity score weighting
+- Swiss OASI pension
+- FSIO
+- EPRC
 - R
-- package
-date: "2020-04-14"
+- Phoenix
+date: "2018-12-19"
 draft: false
 excerpt: Projection model of the Old-age and survivor's insurance (OASI) expenses
 layout: single
@@ -28,5 +28,5 @@ This article documents the reasons why the OASI's expenses model has been adapte
 in the spring 2018. On one hand, more transparency and rapidity in the computation
 were necessary. R was the chosen solution to reach these objectives. On the 
 other hand, the computation method was different for the Swiss and the foreign
-population. It had to be standardised and this new programming language allowed
-to do this more efficiently.
+population. The R programming language allowed to standardize the model more 
+efficiently.
