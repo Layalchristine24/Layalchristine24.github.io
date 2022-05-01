@@ -28,7 +28,7 @@ This paper proposes semi- and nonparametric methods for disentangling the total 
 
 ## My contribution
 
-I cleaned the dataset Job Corps and built the necessary variables for the study. The most important are:
+I cleaned the dataset Job Corps and built the necessary variables for the study by using R and STATA. The most important are:
 
 - the continuous treatment variable (D): the total hours spent either in academic or vocational classes in the 12 months following the program assignment according to the survey;
 - the mcontinuous mediator variables (M): the proportion of weeks employed in the second year;
