@@ -2,7 +2,6 @@
 I have been working as an econometrician in the Mathematics sector for the Federal Social Insurance Office (FSIO) since 2017. 
 On behalf of the FSIO, I have undertaken a research project in parallel with my office job as a PhD Student in Economics and Social Sciences at the University of Fribourg (Switzerland) and have become a member of the [ASAM Group](www.unifr.ch/inf/asam/en/) (Applied Statistics and Modelling).
 
-![alt text here](featured.jpeg)
 
 <!--
 **Layalchristine24/Layalchristine24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -24,8 +23,6 @@ Here are some ideas to get you started:
 - The model of the [sum of the Old-Age and Survivor's Insurance (OASI) pension amounts](https://www.bsv.admin.ch/dam/bsv/fr/dokumente/ahv/finanzperspektiven/validierung-modellansatz-ahv.pdf.download.pdf/2018_07_09_definitif_ld_rapport_ofas.pdf).
 
 # My current PhD research project
-
-<img align="right" width="350" height="300" src=sidebar_listing.jpg>
 
 🔭 I’m currently working on
 <!--
