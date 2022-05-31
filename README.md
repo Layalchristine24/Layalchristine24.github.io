@@ -2,7 +2,7 @@
 I have been working as an econometrician in the Mathematics sector for the Federal Social Insurance Office (FSIO) since 2017. 
 On behalf of the FSIO, I have undertaken a research project in parallel with my office job as a PhD Student in Economics and Social Sciences at the University of Fribourg (Switzerland) and have become a member of the [ASAM Group](www.unifr.ch/inf/asam/en/) (Applied Statistics and Modelling).
 
-![alt text here](blog_hugo_apero.jpeg)
+![alt text here](featured.jpeg)
 
 <!--
 **Layalchristine24/Layalchristine24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
