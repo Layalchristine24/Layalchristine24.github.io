@@ -1,10 +1,8 @@
-## Hello there ! My name is Layal Christine Lettry.
-
 # Hi there 👋
 I have been working as an econometrician in the Mathematics sector for the Federal Social Insurance Office (FSIO) since 2017. 
-On behalf of the FSIO, I have undertaken a research project in parallel with my office job as a PhD Student in Economics and Social Sciences under the supervision of Prof. Dr. Laurent Donzé at the University of Fribourg (Switzerland) and have become a member of the [ASAM Group](www.unifr.ch/inf/asam/en/) (Applied Statistics and Modelling).
+On behalf of the FSIO, I have undertaken a research project in parallel with my office job as a PhD Student in Economics and Social Sciences at the University of Fribourg (Switzerland) and have become a member of the [ASAM Group](www.unifr.ch/inf/asam/en/) (Applied Statistics and Modelling).
 
-![alt text here](http://istudy7.com/wp-content/uploads/2019/05/37-1200x600.jpg)
+![alt text here](blog_hugo_apero.jpeg)
 
 <!--
 **Layalchristine24/Layalchristine24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -27,7 +25,7 @@ Here are some ideas to get you started:
 
 # My current PhD research project
 
-<img align="right" width="350" height="300" src=https://miro.medium.com/max/751/0*792eK4KO1S1XQyzj>
+<img align="right" width="350" height="300" src=sidebar_listing.jpg>
 
 🔭 I’m currently working on
 <!--
@@ -42,7 +40,7 @@ Here are some ideas to get you started:
 
 # My other research topics
 🔭 I’m currently developing
-- a Shiny Web App on financial stocks indicators (cf. [stock-analysis repository](https://github.com/Layalchristine24/stock-analysis)).
+- a Shiny Web App on stock-trading tools (cf. [stock-analysis repository](https://github.com/Layalchristine24/stock-analysis)).
 
 # Professional affiliations
 - [ASAM Group](www.unifr.ch/inf/asam/en/);
@@ -63,8 +61,6 @@ Here are some ideas to get you started:
 
 # My interests
 
-<img align="right" width="350" height="300" src="https://ih1.redbubble.net/image.3074894281.0888/st,small,507x507-pad,600x600,f8f8f8.u2.jpg">
-
 - R (Tidy Data/dplyr/ggplot2/...);
 - Econometrics (theory and applied);
 - Forecasting and Economic Modeling;
@@ -79,21 +75,7 @@ Here are some ideas to get you started:
 # Possible further education
 🤔 If possible, I’m looking for learning
 
-<img align="right" width="350" height="300" src=https://s3-us-west-2.amazonaws.com/robogarden-new/Articles/upload/blogs/lg-best-programming-languages-to-teach-your-child.jpg>
-
 - other programming languages (Python, C++, SQL,...);
 - Software Engineering and Development.
 
 
-
-
-<!--<source src="https://github.com/Layalchristine24/Layalchristine24.github.io/blob/main/Rotating_earth_(large).gif">
-
-
-![test gif](https://github.com/Layalchristine24/Layalchristine24.github.io/blob/main/Rotating_earth_(large).gif)
-
-
-<source src="https://github.com/Layalchristine24/Layalchristine24.github.io/blob/main/gapminder_graph.gif">
-
-![test2 gif](https://github.com/Layalchristine24/Layalchristine24.github.io/blob/main/gapminder_graph.gif) 
--->
