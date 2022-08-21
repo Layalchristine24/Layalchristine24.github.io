@@ -2,29 +2,30 @@
 author: Layal Christine Lettry
 categories:
 - shiny app
-- stock
+- on-line calculator
 - R
-date: "2022-04-30"
+- return
+- investment project
+date: "2022-08-21"
 draft: false
-excerpt: My stock-trading tools project (public GitHub repository)
+excerpt: My return on-line calculator project (public GitHub repository)
 layout: single
 links:
 - icon: github
   icon_pack: fab
   name: code
-  url: https://github.com/Layalchristine24/stock-analysis
-subtitle: Focus on companies with growing dividends
+  url: https://github.com/Layalchristine24/simulreturns
+subtitle: On-line calculator for evaluating the final value of investment projects
 tags:
 - hugo-site
-title: Stock-trading tools analysis
+title: Simulation of returns on project investments in the stock market
 ---
-# Stock-trading tools analysis
+# Simulation of returns on project investments in the stock market
 ---
 
 ## Concept of the project
-My new project is about analysing stock-trading tools in order to be able to compare
-faster which companies can be trusted or not from a long-term perspective.
-I focus on stocks showing growing dividends.
+My project is to give access to user-friendly tools for computing the final 
+value of an investment project.
 
 ## Shiny App
 I intend to develop stock-trading tools which can be more user-friendly in a Shiny App. 
