@@ -8,8 +8,10 @@ headline: |
 
 <!-- this is a subheadline -->
 
-I have been working as an econometrician in the Mathematics sector for the Federal Social Insurance Office (FSIO) since 2017. 
+I hold a M.A. in Economics and a CAS in Demography and Population Analysis. 
 
-On behalf of the FSIO, I have undertaken a research project in parallel with my office job as a PhD Student in Economics and Social Sciences at the University of Fribourg (Switzerland) and have become a member of the [ASAM Group](www.unifr.ch/inf/asam/en/) (Applied Statistics and Modelling).
+I also did doctoral studies in Microeconomics and Econometrics and was a member of the [ASAM Group](www.unifr.ch/inf/asam/en/) (Applied Statistics and Modelling). 
 
-Last but not least I love working with R !
+I worked as an Econometrician at the [Federal Social Insurance Office (FSIO)](www.bsv.admin.ch/bsv/en/home.html) where I mainly contributed to the creation of an R package and to the implementation of econometric and mathematical models using *tidyverse*. 
+
+I have been working with R since my Bachelor studies and I am passionate about the R ecosystem. I joined [cynkra GmbH](www.cynkra.com) in October 2022 as a Data Scientist.
