@@ -1,5 +1,5 @@
 ---
-author: Layal Christine Lettry
+author: Federal Social Insurance Office (FSIO)
 categories:
 - Swiss OASI pension
 - FSIO
@@ -15,7 +15,7 @@ links:
   icon_pack: fab
   name: website
   url: https://www.fedlex.admin.ch/eli/fga/2022/1711/de
-subtitle: Layal Christine Lettry (Pipoz)
+subtitle: Federal Social Insurance Office (FSIO)
 tags:
 - hugo-site
 title:  Botschaft zur Volksinitiative "Für eine sichere und nachhaltige Altersvorsorge (Renteninitiative)" / Message concernant l’initiative populaire "Pour une prévoyance vieillesse sûre et pérenne (initiative sur les rentes)"

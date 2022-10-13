@@ -1,5 +1,5 @@
 ---
-author: Layal Christine Lettry
+author: Federal Social Insurance Office (FSIO) / ECOPLAN AG
 categories:
 - Swiss OASI pension
 - FSIO
@@ -15,7 +15,7 @@ links:
   icon_pack: fab
   name: website
   url: https://www.bsv.admin.ch/bsv/de/home/publikationen-und-service/forschung/forschungspublikationen.exturl.html?lang=de&lnr=09/22#pubdb
-subtitle: Layal Christine Lettry (Pipoz)
+subtitle: Federal Social Insurance Office (FSIO)
 tags:
 - hugo-site
 title: Auswirkungen auf Arbeitsmarkt, Gesamtwirtschaft, ALV und Sozialhilfe der Renteninitiative
