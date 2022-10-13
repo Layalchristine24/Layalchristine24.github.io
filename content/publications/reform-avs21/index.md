@@ -3,30 +3,26 @@ author: Layal Christine Lettry
 categories:
 - Swiss OASI pension
 - FSIO
-- EPRC
+- AVS21
 - R
-- Phoenix
-date: "2018-12-19"
+- AHV21
+date: "2019-08-28"
 draft: false
-excerpt: Standardization of the OASI's expenses model in R
+excerpt: AVS21/AHV21 Message
 layout: single
 links:
 - icon: website
   icon_pack: fab
   name: website
-  url: https://soziale-sicherheit-chss.ch/fr/modele-de-projection-des-depenses-de-lavs/
+  url: https://fedlex.data.admin.ch/eli/fga/2019/2267
 subtitle: Layal Christine Lettry (Pipoz)
 tags:
 - hugo-site
-title:  Projection model of the Old-age and survivor's insurance (OASI) expenses
+title:  Botschaft zur Stabilisierung der AHV (AHV 21) / Message relatif à la stabilisation de l'AVS (AVS 21)
 ---
-# Projection model of the Old-age and survivor's insurance (OASI) expenses
+# Botschaft zur Stabilisierung der AHV (AHV 21) / Message relatif à la stabilisation de l'AVS (AVS 21)
 ---
 
 ## Summary
-This article documents the reasons why the OASI's expenses model has been adapted
-in the spring 2018. On one hand, more transparency and rapidity in the computation
-were necessary. R was the chosen solution to reach these objectives. On the 
-other hand, the computation method was different for the Swiss and the foreign
-population. The R programming language allowed to standardize the model more 
-efficiently.
+This message was adopted by the Swiss Federal Council on August 28, 2019. My contribution to this message is essentially the calculations and the production of the several variants of the Old-Age and Survivors' Insurance (OASI) financial budget featured
+on the last pages of the document.
