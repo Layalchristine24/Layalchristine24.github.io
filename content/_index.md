@@ -2,13 +2,13 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: I am an econometrician working every day with R. I am curious about all programming languages and want to learn more and more each day. I am a researcher at heart and care about every detail. 
+description: I am an econometrician and a data scientist working every day with R. I love programming and I am eager to learn. As a researcher at heart, I care about every single detail which can improve the final performance of my programs. 
 image_left: true
 images:
 - img/profile.jpeg
 show_action_link: true
 show_social_links: true
-subtitle: Econometrician, R enthusiast, eager to learn
+subtitle: Econometrician, Data Scientist, R enthusiast, eager to learn
 text_align_left: true
 title: Layal Christine Lettry, MA in Economics
 type: home
