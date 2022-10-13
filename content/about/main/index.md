@@ -6,7 +6,8 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
- I am currently working on the clustering of the Swiss Pension Register using Kamila Clustering Method with the R package [kamila](https://github.com/ahfoss/kamila) of A. Foss et al. (2016) and A. Foss et al. (2018) and on classification methods. I would like to apply machine learning methods (like [Transformation Forests](https://github.com/cran/trtf)) on the Swiss Pension Register and develop the Transformation Forest in a time dimension. I also intend to develop a Shiny Web App on stock-trading tools analysis (cf. [stock-analysis repository](https://github.com/Layalchristine24/stock-analysis)).I am also working on another project in the repository named [simulreturns](https://github.com/Layalchristine24/simulreturns) in which I intend to give an on-line calculator for evaluating the final value of investment projects. 
+ I am currently working on the clustering of the Swiss Pension Register using Kamila Clustering Method with the R package [kamila](https://github.com/ahfoss/kamila) of A. Foss et al. (2016) and A. Foss et al. (2018) and on classification methods. I also intend to develop stock-trading tools for evaluating the risk to invest in a specific stock (cf. [stock-analysis repository](https://github.com/Layalchristine24/stock-analysis)). Moreover, I am working on another project in the repository named [simulreturns](https://github.com/Layalchristine24/simulreturns). Thanks to this package, it will be possible to compute the final value of some investment projects based on several assumptions by entering very few parameters. A [Shiny App](https://github.com/Layalchristine24/shinyreturns) will allow
+ to make the use of the [simulreturns](https://github.com/Layalchristine24/simulreturns) package more user-friendly.
 outro: |
 
 ---
