@@ -1,0 +1,36 @@
+---
+author: Layal Christine Lettry
+categories:
+- shiny app
+- on-line calculator
+- R
+- return
+- investment project
+date: "2022-10-13"
+draft: false
+excerpt: My return on-line calculator Shiny App (public GitHub repository)
+layout: single
+links:
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/Layalchristine24/shinyreturns
+subtitle: Shiny App featuring an on-line calculator for evaluating the final value of investment projects
+tags:
+- hugo-site
+title: Shiny App for ROI Simulations 
+---
+# Shiny App for ROI Simulations
+---
+
+## Concept of the project
+This project is mainly about building a Shiny App for simulating the return on investment of investment projects in the stock market based on several assumptions.
+
+## Dependencies
+This Shiny App allows to use the package [simulreturns](https://github.com/Layalchristine24/simulreturns) in a more user-friendly way. 
+
+## Objective
+The final objective of this project is to give a new tool to the people 
+who are starting to invest in the stock market.
+
+This is a new project, so please stay tuned ! 

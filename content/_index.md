@@ -8,7 +8,7 @@ images:
 - img/profile.jpeg
 show_action_link: true
 show_social_links: true
-subtitle: Econometrician, Data Scientist, R enthusiast, eager to learn
+subtitle: Econometrician, Data Scientist, R enthusiast
 text_align_left: true
 title: Layal Christine Lettry, MA in Economics
 type: home
