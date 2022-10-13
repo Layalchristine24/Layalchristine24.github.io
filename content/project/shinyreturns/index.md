@@ -8,19 +8,19 @@ categories:
 - investment project
 date: "2022-10-13"
 draft: false
-excerpt: My return on-line calculator Shiny App (public GitHub repository)
+excerpt: My return on investment simulator on-line simulator (public GitHub repository)
 layout: single
 links:
 - icon: github
   icon_pack: fab
   name: code
   url: https://github.com/Layalchristine24/shinyreturns
-subtitle: Shiny App featuring an on-line calculator for evaluating the final value of investment projects
+subtitle: Shiny App
 tags:
 - hugo-site
-title: Shiny App for ROI Simulations 
+title: Shiny App for return on investment simulations 
 ---
-# Shiny App for ROI Simulations
+# Shiny App for return on investment simulations
 ---
 
 ## Concept of the project
