@@ -8,7 +8,7 @@ categories:
 - Initiative sur les rentes
 date: "2022-06-22"
 draft: false
-excerpt: Messages about the Pension Popular Initiative
+excerpt: Message for the Popular Initiative about the OASI Pensions
 layout: single
 links:
 - icon: website
@@ -25,5 +25,5 @@ title:  Botschaft zur Volksinitiative "Für eine sichere und nachhaltige Altersv
 ---
 
 ## Summary
-This message was adopted by the Swiss Federal Council on June 22, 2022. My contribution (together with the team of mathematicians of the [FSIO](https://www.bsv.admin.ch/bsv/en/home.html)) to this message is essentially the calculations and the production of the several variants of the Old-Age and Survivors' Insurance (OASI) financial budget featured
+This message was adopted by the Swiss Federal Council on June 22, 2022. My contribution (together with the team of mathematicians of the [FSIO](https://www.bsv.admin.ch/bsv/en/home.html)) to this message is mainly the modelling and the production of the several variants of the Old-Age and Survivors' Insurance (OASI) financial budget featured
 on the last pages of the document.
