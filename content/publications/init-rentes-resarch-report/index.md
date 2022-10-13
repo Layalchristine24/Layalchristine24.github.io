@@ -25,6 +25,6 @@ title:  Renteninitiative: Auswirkungen auf Arbeitsmarkt, Gesamtwirtschaft, ALV u
 ---
 
 ## Summary
-This research project is about the effects of the Popular Initiative about the OASI Pensions on the labor market, the economy, the unemployment insurance and the social benefits. My contribution (together with the team of mathematicians of the [FSIO](https://www.bsv.admin.ch/bsv/en/home.html)) to this research report was the revision and the discussion with the commissioned entity for the redaction about the model provided by the text of the initiative.
+This research project is about the effects of the Popular Initiative about the OASI Pensions on the labor market, the economy, the unemployment insurance and the social benefits. My contribution (together with the team of mathematicians of the [FSIO](https://www.bsv.admin.ch/bsv/en/home.html)) to this research report was the revision and the discussion (with the entity commissioned to draft this report) about the model provided by the text of the initiative.
 
 
