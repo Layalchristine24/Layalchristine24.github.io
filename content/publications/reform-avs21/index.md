@@ -1,5 +1,5 @@
 ---
-author: Layal Christine Lettry
+author: Federal Social Insurance Office (FSIO)
 categories:
 - Swiss OASI pension
 - FSIO
@@ -15,7 +15,7 @@ links:
   icon_pack: fab
   name: website
   url: https://fedlex.data.admin.ch/eli/fga/2019/2267
-subtitle: Layal Christine Lettry (Pipoz)
+subtitle: Federal Social Insurance Office (FSIO)
 tags:
 - hugo-site
 title:  Botschaft zur Stabilisierung der AHV (AHV 21) / Message relatif à la stabilisation de l'AVS (AVS 21)
