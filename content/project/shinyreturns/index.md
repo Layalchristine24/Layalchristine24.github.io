@@ -6,29 +6,28 @@ categories:
 - R
 - return
 - investment project
-date: "2022-08-21"
+date: "2022-10-13"
 draft: false
-excerpt: My return on-line calculator project (public GitHub repository)
+excerpt: My return on-line calculator Shiny App (public GitHub repository)
 layout: single
 links:
 - icon: github
   icon_pack: fab
   name: code
-  url: https://github.com/Layalchristine24/simulreturns
-subtitle: On-line calculator for evaluating the final value of investment projects
+  url: https://github.com/Layalchristine24/shinyreturns
+subtitle: Shiny App featuring an on-line calculator for evaluating the final value of investment projects
 tags:
 - hugo-site
-title: Simulation of returns on project investments in the stock market
+title: Shiny App for ROI Simulations 
 ---
-# Simulation of returns on project investments in the stock market
+# Shiny App for ROI Simulations
 ---
 
 ## Concept of the project
-My project is to give access to user-friendly tools for computing the final 
-value of an investment project.
+This project is mainly about building a Shiny App for simulating the return on investment of investment projects in the stock market based on several assumptions.
 
-## Shiny App
-I intend to develop stock-trading tools which can be more user-friendly in a Shiny App. 
+## Dependencies
+This Shiny App allows to use the package [simulreturns](https://github.com/Layalchristine24/simulreturns) in a more user-friendly way. 
 
 ## Objective
 The final objective of this project is to give a new tool to the people 
