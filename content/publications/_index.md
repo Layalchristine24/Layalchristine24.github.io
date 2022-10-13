@@ -8,7 +8,7 @@ cascade:
     show_sidebar_adunit: true
     text_link_label: View all projects
     text_link_url: /project/
-description:  "Here are my publications!\n"
+description:  "Here are my publications and my contributions!\n"
 layout: list-grid
 show_author_byline: true
 show_button_links: false
@@ -16,12 +16,12 @@ show_post_date: false
 show_post_thumbnail: true
 sidebar:
   author: Layal Christine Lettry
-  description: "Here are my publications!\n"
+  description: "Here are my publications and my contributions!\n"
   show_sidebar_adunit: false
   text_link_label: ""
   text_link_url: ""
-  title: An overview of my publications
-title: An overview of my publications
+  title: An overview of my publications and contributions
+title: An overview of my publications and contributions
 ---
 
 
