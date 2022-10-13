@@ -18,7 +18,7 @@ links:
 subtitle: Layal Christine Lettry (Pipoz)
 tags:
 - hugo-site
-title:  Renteninitiative: Auswirkungen auf Arbeitsmarkt, Gesamtwirtschaft, ALV und Sozialhilfe (2022; Berichtnummer 9/22)
+title: Auswirkungen auf Arbeitsmarkt, Gesamtwirtschaft, ALV und Sozialhilfe der Renteninitiative
 
 ---
 # Renteninitiative: Auswirkungen auf Arbeitsmarkt, Gesamtwirtschaft, ALV und Sozialhilfe (2022; Berichtnummer 9/22)
