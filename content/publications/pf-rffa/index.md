@@ -15,7 +15,7 @@ links:
 - icon: website
   icon_pack: fab
   name: website
-  url: https://www.efd.admin.ch/efd/de/home/das-efd/gesetzgebung/abstimmungen/staf/staf-bsv.html
+  url: https://www.efd.admin.ch/dam/efd/en/das-efd/gesetzgebung/abstimmungen/ahv-hintergrund-berechnungen.pdf.download.pdf/20190218%20DE%20STAF%20Hintergrund%20Berechnungen%2020190215.pdf
 subtitle: Federal Social Insurance Office (FSIO)
 tags:
 - hugo-site
