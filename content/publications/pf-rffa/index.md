@@ -6,6 +6,7 @@ categories:
 - RFFA
 - R
 - STAF
+- TRAF
 date: "2019-02-19"
 draft: false
 excerpt: Effects of the Tax Reform and AHV Financing (TRAF) proposal on the stabilisation of the AHV
