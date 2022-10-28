@@ -123,8 +123,8 @@ enableEmoji = true
     url = "/about/"
     weight = 1
  [[menu.header]]
-    name = "Publications"
-    title = "Publications"
+    name = "Publications and Contributions"
+    title = "Publications and Contributions"
     url = "/publications/"
     weight = 2
   [[menu.header]]
