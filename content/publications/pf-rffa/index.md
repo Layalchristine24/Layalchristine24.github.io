@@ -3,6 +3,7 @@ author: Federal Social Insurance Office (FSIO)
 categories:
 - Swiss OASI pension
 - FSIO
+- FDF
 - RFFA
 - R
 - STAF
