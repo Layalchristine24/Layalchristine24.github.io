@@ -24,6 +24,8 @@ title: Auswirkungen auf Arbeitsmarkt, Gesamtwirtschaft, ALV und Sozialhilfe der 
 # Renteninitiative: Auswirkungen auf Arbeitsmarkt, Gesamtwirtschaft, ALV und Sozialhilfe (2022; Berichtnummer 9/22)
 ---
 
+![Report](./featured-hex.png)
+
 ## Summary
 This research project is about the effects of the Popular Initiative about the OASI Pensions on the labor market, the economy, the unemployment insurance and the social benefits. My contribution (together with the team of mathematicians of the [FSIO](https://www.bsv.admin.ch/bsv/en/home.html)) to this research report was the revision and the discussion (with the entity commissioned to draft this report) about the model provided by the text of the initiative.
 
