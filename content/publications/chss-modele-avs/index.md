@@ -23,6 +23,8 @@ title:  Projection model of the Old-age and survivor's insurance (OASI) expenses
 # Projection model of the Old-age and survivor's insurance (OASI) expenses
 ---
 
+![Article](./featured-hex.png)
+
 ## Summary
 This article documents the reasons why the OASI's expenses model has been adapted
 in the spring 2018. On one hand, more transparency and rapidity in the computation

@@ -25,5 +25,7 @@ title:  Hintergrunddokumnent Steuer-AHV-Vorlage, Beitrag zur Deckung des Finanzi
 # Hintergrunddokumnent Steuer-AHV-Vorlage (STAF), Beitrag zur Deckung des Finanzierungsbedarfs der AHV / Fiche d'information Projet Fiscalité et AVS (RFFA), contribution à la couverture du besoin financier de l’AVS
 ---
 
+![Document](./featured-hex.png)
+
 ## Summary
 This document was written by the [FSIO](https://www.bsv.admin.ch/bsv/en/home.html) and was published on the [website of the Federal Department of Finance](https://www.efd.admin.ch/efd/en/home/the-fdf/legislation/votes/tax-reform-ahv-financing/staf-bsv.html) on February 19, 2019. My contribution (together with the team of mathematicians of the [FSIO](https://www.bsv.admin.ch/bsv/en/home.html)) to this document was mainly the modelling and the production of the several variants of the Old-Age and Survivors' Insurance (OASI) financial budget featured on the last pages of the document.
