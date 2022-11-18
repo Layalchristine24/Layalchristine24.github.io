@@ -2,12 +2,15 @@
 author: Layal Christine Lettry
 categories:
 - Theme Features
-date: "2022-04-30"
+date: "2022-11-18"
 draft: false
-excerpt: This [website](https://hugo-apero-docs.netlify.app/about/) helped me to set up my personal website with hugo-apéro theme.
+excerpt: Certified ScrumMaster Training for Scrum Alliance Certification
 layout: single
-subtitle: 
-title: Set up your hugo-apéro theme
+subtitle: DasScrumTeam and Scrum Alliance
+title: I am a Certified Scrum Master
 ---
 
-Thank you to the authors for the great guidelines!
+I attended the *Certified ScrumMaster Training* given by *DasScrumTeam* in Zurich
+Airport (November 15-16, 2022). This training allowed me to get all the necessary
+knowledge to pass the *Scrum Alliance Online Test* and obtain the certification
+*Certified ScrumMaster*. I really enjoyed the training. 
