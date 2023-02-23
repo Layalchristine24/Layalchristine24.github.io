@@ -10,7 +10,7 @@ headline: |
 
 I hold a M.A. in Economics and a CAS in Demography and Population Analysis. 
 
-As a former PhD Student in Economics, I attended courses according to several doctoral programs and took part to several research projects in Microeconomics and Econometrics. I was also a member of the [ASAM Group](www.unifr.ch/inf/asam/en/) (Applied Statistics and Modelling). 
+As a former PhD Student in Economics, I attended courses according to several doctoral programs and took part to several research projects in Microeconomics and Econometrics. I was also a member of the [ASAM Group](https://www.unifr.ch/inf/asam/en/) (Applied Statistics and Modelling). 
 
 I worked as an Econometrician at the [Federal Social Insurance Office (FSIO)](www.bsv.admin.ch/bsv/en/home.html) where I mainly contributed to the creation of an R package and to the implementation of econometric and mathematical models using *tidyverse*. 
 
