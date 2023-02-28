@@ -19,10 +19,10 @@ tags:
 - hugo-site
 title: rrclust R package
 ---
-# Clustering the Swiss Pension Register
+# Clustering the Swiss Pension Register <img src="./featured-hex.jpg" align="right" height="139" />
 ---
 
-## Problematic
+## Problematic 
 
 The anonymous data of the Swiss Pension Register (PR) are typically used to estimate and project (in the short, middle and long term) the revenues and the expenditures of the Old-Age and Survivors’ Insurance (OASI). In this perspective, it is essential to have a clear look at the register's main statistical features. To better understand it and benefit more from its richness, we propose analysing the raw data by an appropriate clustering method.
 

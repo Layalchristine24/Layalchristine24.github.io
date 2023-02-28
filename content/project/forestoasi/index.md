@@ -19,7 +19,7 @@ tags:
 - hugo-site
 title: forestoasi R package
 ---
-# Testing classification methods on the Swiss Pension Register
+# Testing classification methods on the Swiss Pension Register <img src="./featured-hex.jpg" align="right" height="139" />
 ---
 
 ## Description of the project
