@@ -25,11 +25,9 @@ title: Return on investment simulator
 My project is about simulating several investment projects based on several assumptions and about computing the respective expected return on investment.
 
 ## Dependencies
-This simulator is featured in a [Shiny App](https://github.com/Layalchristine24/shinyreturns) which makes easier to use
-the simulator.
+This simulator is featured in a [Shiny App](https://github.com/Layalchristine24/shinyreturns) which makes easier to use the simulator.
 
 ## Objective
-The final objective of this project is to give a new tool to the people 
-who are starting to invest.
+The final objective of this project is to give a new tool to the people  who are starting to invest.
 
 This is a new project, so please stay tuned ! 
