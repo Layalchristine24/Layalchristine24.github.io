@@ -18,7 +18,7 @@ tags:
 - hugo-site
 title: Return on investment simulator
 ---
-# Return on investment simulator
+# Return on investment simulator <img src="./featured-hex.jpg" align="right" height="139" />
 ---
 
 ## Concept of the project
