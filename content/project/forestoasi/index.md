@@ -29,10 +29,15 @@ This project is about testing the estimation power of some classification method
 ## Application
 
 The following methods were applied on the arbitrarily clustered Swiss pension register: 
+
 - Linear Discriminant Analysis, 
+
 - Logit Discriminant Analysis, 
+
 - Splines, 
+
 - MARS, 
+
 - Classification trees.
 
 ## Evaluation of the results
