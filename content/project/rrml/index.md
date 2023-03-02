@@ -19,7 +19,7 @@ tags:
 - hugo-site
 title: rrml R package
 ---
-# Machine learning of the Swiss Pension Register
+# Machine learning methods applied to the Swiss Pension Register <img src="./featured-hex.jpg" align="right" height="139" />
 ---
 
 ## Prerequisite
