@@ -16,9 +16,9 @@ links:
 subtitle: Focus on companies with growing dividends
 tags:
 - hugo-site
-title: How to select companies with increasing dividends?
+title: divkings R package
 ---
-# divkings <img src="man/figures/logo.png" align="right" height="139" />
+# divkings <img src="./featured-hex.jpg" align="right" height="139" />
 ---
 
 ## Concept of the project

@@ -16,7 +16,7 @@ links:
 subtitle: Return on investment simulator
 tags:
 - hugo-site
-title: Return on investment simulator
+title: simulreturns R package
 ---
 # Return on investment simulator <img src="./featured-hex.jpg" align="right" height="139" />
 ---

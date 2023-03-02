@@ -18,7 +18,7 @@ links:
 subtitle: Shiny App
 tags:
 - hugo-site
-title: Shiny App for return on investment simulations 
+title: shinyreturns Shiny App
 ---
 # Shiny App for return on investment simulations
 ---
