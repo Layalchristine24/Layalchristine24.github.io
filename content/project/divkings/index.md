@@ -6,17 +6,17 @@ categories:
 - R
 date: "2022-04-30"
 draft: false
-excerpt: My stock-trading tools project (public GitHub repository)
+excerpt: divkings (public GitHub repository)
 layout: single
 links:
 - icon: github
   icon_pack: fab
   name: code
-  url: https://github.com/Layalchristine24/stock-analysis
+  url: https://github.com/Layalchristine24/divkings
 subtitle: Focus on companies with growing dividends
 tags:
 - hugo-site
-title: Stock-trading tools analysis
+title: How to select companies with increasing dividends?
 ---
 # divkings <img src="man/figures/logo.png" align="right" height="139" />
 ---
