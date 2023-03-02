@@ -8,7 +8,7 @@ categories:
 - investment project
 date: "2022-10-13"
 draft: false
-excerpt: My return on investment simulator on-line simulator (public GitHub repository)
+excerpt: shinyreturns (public GitHub repository)
 layout: single
 links:
 - icon: github

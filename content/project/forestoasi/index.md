@@ -7,7 +7,7 @@ categories:
 - package
 date: "2022-04-30"
 draft: false
-excerpt: My exploratory project (private GitHub repository)
+excerpt: forestoasi (private GitHub repository)
 layout: single
 links:
 - icon: github

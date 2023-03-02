@@ -6,7 +6,7 @@ categories:
 - investment project
 date: "2022-10-13"
 draft: false
-excerpt: My return on investment simulator (public GitHub repository)
+excerpt: simulreturns (public GitHub repository)
 layout: single
 links:
 - icon: github
@@ -22,12 +22,16 @@ title: Return on investment simulator
 ---
 
 ## Concept of the project
-My project is about simulating several investment projects based on several assumptions and about computing the respective expected return on investment.
 
-## Dependencies
-This simulator is featured in a [Shiny App](https://github.com/Layalchristine24/shinyreturns) which makes easier to use the simulator.
+The goal of simulreturns is to give access to user-friendly tools for
+computing the final value of an investment project.
 
-## Objective
-The final objective of this project is to give a new tool to the people  who are starting to invest.
+## Installation
 
-This is a new project, so please stay tuned ! 
+You can install the development version of simulreturns from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("Layalchristine24/simulreturns")
+```
