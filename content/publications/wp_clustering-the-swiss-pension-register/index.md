@@ -11,7 +11,7 @@ categories:
 - package
 date: "2023-02-27"
 draft: false
-excerpt: Working Paper
+excerpt: Research article
 layout: single
 links:
 - icon: website
