@@ -21,7 +21,8 @@ tags:
 title: Auswirkungen auf Arbeitsmarkt, Gesamtwirtschaft, ALV und Sozialhilfe der Renteninitiative
 
 ---
-# Renteninitiative: Auswirkungen auf Arbeitsmarkt, Gesamtwirtschaft, ALV und Sozialhilfe (2022; Berichtnummer 9/22)
+# Renteninitiative: Auswirkungen auf Arbeitsmarkt, Gesamtwirtschaft, ALV und Sozialhilfe 
+## Forschungsbericht Nr. 9/22
 ---
 
 ![Report](./featured-hex.png)
