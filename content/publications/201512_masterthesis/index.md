@@ -4,6 +4,7 @@ categories:
 - SHARE
 - bivariate probit
 - R
+- likelihood
 date: "2015-12-16"
 draft: false
 excerpt: Master Thesis
