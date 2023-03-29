@@ -21,20 +21,22 @@ to follow them or not.
 
 You can get other examples by reading these articles:
 
-- [Introduction ([`openxlsx`](https://github.com/ycphs/openxlsx/) Homepage)](https://ycphs.github.io/openxlsx/articles/Introduction.html)
+- [Introduction (`openxlsx` Homepage)](https://ycphs.github.io/openxlsx/articles/Introduction.html)
 
-- [Formatting with xlsx ([`openxlsx`](https://github.com/ycphs/openxlsx/) Homepage)](https://ycphs.github.io/openxlsx/articles/Formatting.html)
+- [Formatting with xlsx (`openxlsx` Homepage)](https://ycphs.github.io/openxlsx/articles/Formatting.html)
 
 ## Use [`openxlsx`](https://github.com/ycphs/openxlsx/) inside of an `R` package
 I would suggest to use [`openxlsx`](https://github.com/ycphs/openxlsx/) inside of an `R` package as you can better manage
 how you organise your code. 
 
-### Step 1: Prepare your data and create your workbook
 As described in the [r-pkgs (2e)](https://r-pkgs.org/code.html#sec-code-organising) book (by Hadley Wickham and Jenny Bryan), organise your code by writing functions into separated `R` files which you will save in your `R/*` folder. Each file can refer to a single function or to several functions (e.g. one big function with its helpers). For example, in my [`openxlsx.demo`](https://github.com/Layalchristine24/openxlsx.demo) package, the function `write_penguins()` is written in the [`R/write_penguins.R`](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/write_penguins.R) file and I can prepare my data by calling the function `prepare_penguins_mod()` written in the [`R/prepare_penguins_mod.R`](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/prepare_penguins_mod.R).
 
 Moreover, you will certainly define some [`openxlsx`](https://github.com/ycphs/openxlsx/) styles for your excel workbook. You can write them into an `R` file such that you can easily retrieve all the styles you defined. 
 For instance, in my [`openxlsx.demo`](https://github.com/Layalchristine24/openxlsx.demo) package,
 all my [`openxlsx`](https://github.com/ycphs/openxlsx/) styles are written in the [`R/openxlsx_styles.R`](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/openxlsx_styles.R) file. By loading the package with `pkgload::load_all()`, you will be able to use your styles while you work on your code, as they do not need to be exported.
+
+### Step 1: Prepare your data and create your workbook
+
 
 ``` r
 #--- install the package openxlsx.demo -----------------------------------------
