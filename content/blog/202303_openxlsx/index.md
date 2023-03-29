@@ -125,7 +125,15 @@ First, you need to write the options in another worksheet which you will referen
 
 Then, write the options in the new worksheet with [`writeData()`](https://ycphs.github.io/openxlsx/reference/writeData.html).
 
-Finally, add the drop-down values to all the cells of your column with [`dataValidation()`](https://ycphs.github.io/openxlsx/reference/dataValidation.html). Do not worry about the warning message but make sure it works for your workbook (see [stackoverflow](https://stackoverflow.com/questions/72278966/data-validation-warning-message-with-openxlsx-package-in-r-sprintf)).
+Finally, add the drop-down values to all the cells of your column with [`dataValidation()`](https://ycphs.github.io/openxlsx/reference/dataValidation.html). We will use the following arguments: 
+
+- `operator` should be `equal` (but can also be oignored);
+
+- `type` should be `list` as we want a drop-down list;
+
+- `value` should refer to the cells coordinates of the worksheet where you saved your options, i.e. `'drop-down-values'!$A$1:$A$5`. 
+
+Do not worry about the warning message but make sure it works for your workbook (see [stackoverflow](https://stackoverflow.com/questions/72278966/data-validation-warning-message-with-openxlsx-package-in-r-sprintf)).
 
 ``` r
 #--- add drop-down values to size --------------------------------------------
@@ -174,9 +182,9 @@ openxlsx::openXL(wb)
 
 To make it more readable, you could add some colors to the different options of your drop-down list by using the function [`conditionalFormatting()`](https://ycphs.github.io/openxlsx/reference/conditionalFormatting.html). The specific arguments to use in our case are the following: 
 
-- `rule`: Allows to enter the condition under which to apply the formatting. In our case, it will be the values of the drop-down list; i.e. `huge`, `big`, `normal`, `small` and `tiny`.
+- `rule`: Allows to enter the condition under which to apply the formatting. In our case, it will be the values of the drop-down list; i.e. `huge`, `big`, `normal`, `small` and `tiny`;
 
-- `style`: Defines the style to apply if the condition set in the `rule` argument is fulfilled.
+- `style`: Defines the style to apply if the condition set in the `rule` argument is fulfilled;
 
 - `type`: Describes the `rule`. In our case, `type` should be equal to `contains` as we want to apply a specific style to all the cells containing the drop-down value defined in the `rule` argument.
 
