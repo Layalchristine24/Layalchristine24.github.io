@@ -14,29 +14,35 @@ title: Working with `openxlsx`
 
 In my [`openxlsx.demo`](https://github.com/Layalchristine24/openxlsx.demo) package,
 you can find some applied examples using `openxlsx` that could help you create a
-nice Excel workbook with `R`. 
+nice excel workbook with `R`. 
 
 I will go through some of the coolest `openxlsx` features and best practices (in my opinion) in this blog post. The following guidelines come from my experience and you are free
-to follow them (or not). 
+to follow them or not. 
 
 You can get other examples by reading these articles:
 
 - [Introduction (`openxlsx` Homepage)](https://ycphs.github.io/openxlsx/articles/Introduction.html)
 
-- [Formating with xlsx (`openxlsx` Homepage)](https://ycphs.github.io/openxlsx/articles/Formatting.html)
+- [Formatting with xlsx (`openxlsx` Homepage)](https://ycphs.github.io/openxlsx/articles/Formatting.html)
 
 ## Use `openxlsx` inside of an `R` package
 I would suggest to use `openxlsx` inside of an `R` package as you can better manage
 how you organise your code. 
 
-### Organise your code in several `R` files
-As described in the [r-pkgs (2e)](https://r-pkgs.org/code.html#sec-code-organising) book (by Hadley Wickham and Jenny Bryan), write functions in separated `R` files which you will store in your `R/*` folder. Each file can refer to a single function or to several functions (e.g. one big function with its helpers). For example, in my [`openxlsx.demo`](https://github.com/Layalchristine24/openxlsx.demo) package, I wrote the function `write_penguins()` into the [`R/write_penguins.R`](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/write_penguins.R) file and I can prepare my data by calling the function `prepare_penguins_mod()` written in the [`R/prepare_penguins_mod.R`](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/prepare_penguins_mod.R).
+### Step 1: Prepare your data and create your workbook
+As described in the [r-pkgs (2e)](https://r-pkgs.org/code.html#sec-code-organising) book (by Hadley Wickham and Jenny Bryan), organise your code by writing functions into separated `R` files which you will save in your `R/*` folder. Each file can refer to a single function or to several functions (e.g. one big function with its helpers). For example, in my [`openxlsx.demo`](https://github.com/Layalchristine24/openxlsx.demo) package, the function `write_penguins()` is written in the [`R/write_penguins.R`](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/write_penguins.R) file and I can prepare my data by calling the function `prepare_penguins_mod()` written in the [`R/prepare_penguins_mod.R`](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/prepare_penguins_mod.R).
 
 Moreover, you will certainly define some `openxlsx` styles for your excel workbook. You can write them into an `R` file such that you can easily retrieve all the styles you defined. 
 For instance, in my [`openxlsx.demo`](https://github.com/Layalchristine24/openxlsx.demo) package,
-I wrote all my `openxlsx` styles into the [`R/openxlsx_styles.R`](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/openxlsx_styles.R) file. By loading the package with `pkgload::load_all()`, you will be able to use your styles while you develop your code, as they do not need to be exported. 
+all my `openxlsx` styles are written in the [`R/openxlsx_styles.R`](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/openxlsx_styles.R) file. By loading the package with `pkgload::load_all()`, you will be able to use your styles while you work on your code, as they do not need to be exported.
 
 ``` r
+#--- install the package openxlsx.demo -----------------------------------------
+# install only if necessary
+
+# install.packages("devtools")
+# devtools::install_github("Layalchristine24/openxlsx.demo")
+
 #--- define your datasets ------------------------------------------------------
 data_penguins <- palmerpenguins::penguins
 data_penguins_raw <- palmerpenguins::penguins_raw
@@ -59,7 +65,7 @@ ws_penguins_raw <- openxlsx::addWorksheet(
 )
 
 #--- define first row --------------------------------------------------------
-# first row where to write the data (set to 2 because we want to write comments 
+# first row where to write the data (set to 2 because we want to write comments
 # in the first row)
 first_row <- 2L
 
@@ -77,8 +83,7 @@ openxlsx::writeData(
   sheet = ws_penguins,
   x = data_penguins_mod,
   startRow = first_row,
-  startCol = 1,
-  headerStyle = style_variables_names # add a style directly to the header
+  startCol = 1
 )
 
 # write palmerpenguins::penguins_raw data
@@ -87,17 +92,17 @@ openxlsx::writeData(
   sheet = ws_penguins_raw,
   x = data_penguins_raw,
   startRow = first_row,
-  startCol = 1,
-  headerStyle = style_variables_names, # add a style directly to the header
-  withFilter = TRUE # filter on everywhere
+  startCol = 1
 )
 
+# View your workbook
+openxlsx::openXL(wb)
 ```
 
 
-### Add drop-down values to a variable
+### Step 2: Add drop-down values to a variable
 
-Let us say you would like to provide a list of options in the form of a drop-down list.
+Let us say you would like to provide a list of options in the form of a drop-down list. Do not worry about the warning message but make sure it works for your workbook (see [stackoverflow](https://stackoverflow.com/questions/72278966/data-validation-warning-message-with-openxlsx-package-in-r-sprintf)).
 
 ``` r
 #--- add drop-down values to size --------------------------------------------
@@ -136,8 +141,9 @@ openxlsx::dataValidation(
   type = "list",
   value = "'drop-down-values'!$A$1:$A$5"
 )
-# openxlsx::openXL(wb)
 
+# View your workbook
+openxlsx::openXL(wb)
 ```
 
 
