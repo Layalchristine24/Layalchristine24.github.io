@@ -277,9 +277,7 @@ openxlsx::conditionalFormatting(wb,
 
 # View your workbook
 openxlsx::openXL(wb)
-
 ```
-
 
 #### Step 2.4: Make the sheet `drop-down-values` invisible
 As you might not want to show the sheet where you wrote the options for the drop-down list, you can make it invisibile thanks to the function [`sheetVisibility()`](https://ycphs.github.io/openxlsx/reference/sheetVisibility.html). You need to specify the workbook name (i.e. `wb`) as well as the worksheet number you want to make invisible --- in this example, this number is stored in the object `ws_drop_down_values` --- and you can finally assign it to `FALSE`.  
@@ -357,8 +355,32 @@ openxlsx::addStyle(
 openxlsx::openXL(wb)
 
 ```
+### Step 5: Format dates
+As you can see by opening your workbook, the date you enter does not look like a date but rather like some random number. To solve this, you need to format your date column. To do so, you need to create a new style you will call `date_style` by using the function [`createStyle()`](https://ycphs.github.io/openxlsx/reference/createStyle.html).
 
-### Step 5: Protect your worksheets
+```r
+# define date_style
+date_style <- openxlsx::createStyle(numFmt = "dd/mm/yyyy")
+```
+Then, you can apply this style to your date column thanks to the function [`addStyle()`](https://ycphs.github.io/openxlsx/reference/addStyle.html). 
+
+```r
+openxlsx::addStyle(
+  wb = wb,
+  sheet = ws_penguins,
+  style = date_style,
+  rows = first_row + seq_len(nrow(data_penguins_mod)),
+  cols = which(names(data_penguins_mod) == "date_modification"),
+  gridExpand = TRUE
+)
+
+# View your workbook
+openxlsx::openXL(wb)
+```
+
+You can refer to this [webpage]() to get more examples on date formatting.
+
+### Step 6: Protect your worksheets
 You can protect your worksheets from any modification thanks to the function [`protectWorksheet()`](https://ycphs.github.io/openxlsx/reference/protectWorksheet.html). By assigning `FALSE` to the arguments `lockAutoFilter` and `lockFormattingCells`, even though the worksheet is protected, you still allow for filtering and for formatting cells. You can also add other options like defining a password for example. Please check the function [reference](https://ycphs.github.io/openxlsx/reference/protectWorksheet.html).
 
 ```r
@@ -383,7 +405,7 @@ openxlsx::protectWorksheet(
 openxlsx::openXL(wb)
 ```
 
-### Step 6: Lock and unlock cells
+### Step 7: Lock and unlock cells
 Now that your worksheets are protected, you might want to unlock specific cells and to highlight which cells are locked, even though they seem to be editable (like `any_comments` in your example).
 
 You first need to define the styles in an external `R` file if you are working inside of a package by using the function [`createStyle()`](https://ycphs.github.io/openxlsx/reference/createStyle.html). Note that the argument `locked` is set to `FALSE` to unlock a cell and to `TRUE` to lock another one.
