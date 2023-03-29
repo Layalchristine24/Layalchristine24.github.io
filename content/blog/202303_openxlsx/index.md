@@ -105,7 +105,7 @@ style_variables_names <- openxlsx::createStyle(
 )
 ```
 
-Finally, you can write the data into the workbook thanks to the function [`writeData()`](https://ycphs.github.io/openxlsx/reference/writeData.html). Note that you set the first active row to be the second one by running `first_row <- 2L` as you want to leave the first row free for some future comments. 
+Finally, you can write the data into the workbook thanks to the function [`writeData()`](https://ycphs.github.io/openxlsx/reference/writeData.html). Note that you set the first active row to be the second one by running `first_row <- 2L` as you want to leave the first row free for some future comments. You can also directly apply your already defined `style_variables_names` by setting it in the `headerStyle` argument and you can also choose to add a filter to every column by setting `withFilter` to `TRUE`, which will be done for the worksheet containing the `data_penguins_raw` data set.
 
 ```r
 #--- define first row ----------------------------------------------------------
@@ -536,10 +536,16 @@ openxlsx::addStyle(
 # View your workbook
 openxlsx::openXL(wb)
 ```
+### Step 8: Add filters
+
+One possibility to add filters is through the function [`writeData()`](https://ycphs.github.io/openxlsx/reference/writeData.html), which you used to add filters to every column for the `data_penguins_raw` data set.
+
+Another option is to use the function [addFilter()](https://ycphs.github.io/openxlsx/reference/addFilter.html) for which you simply need to specify the row where the filter should be and the columns. 
+
+Note that every column in between will also inherit a filter. In this example, a filter will also be added to the `id` column which is located between `year` and `species`. You need to rearrange the column to avoid this feature. 
 
 ```r 
-#--- add filter for several variables ------------------------------------------
-# add filtering possibility
+# add filtering possibility for year, species and island
 openxlsx::addFilter(
   wb = wb,
   sheet = ws_penguins,
@@ -555,3 +561,106 @@ openxlsx::addFilter(
 openxlsx::openXL(wb)
 ```
 
+### Step 9: Write internal hyperlinks
+
+Suppose you want to link the variable `any_comment` present on the worksheet `penguins` to the variable `Comments` of the worksheet `penguins_raw`, such that all values from the `Comments` column will automatically appear in the column `any_comment`. That is why `any_comment` has been locked and `Comments` unlocked, such that the only source of information is `Comments` which you can modify.
+
+To do that, I developed a function called [write_hyperlink()](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/write_hyperlink.R) which will automatically write these internal hyperlinks. You can use it by specifying the `dataset` where the link should be written and the `metadata` where the text should come from. 
+
+```r
+# internal hyperlink between any_comments (sheet "penguins") and Comments (sheet
+# "penguins_raw")
+
+# sheet "penguins" should be linked to "penguins_raw"
+openxlsx.demo::write_hyperlink(
+  dataset = data_penguins_mod,
+  metadata = data_penguins_raw,
+  excel_sheet = "penguins",
+  first_row = first_row,
+  meta_ws_name = "penguins_raw",
+  wb = wb
+)
+
+# View your workbook
+openxlsx::openXL(wb)
+```
+
+To show you how it works, you can look at the content of the function [write_hyperlink()](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/write_hyperlink.R) written in the following chunk.
+
+Please note that this function avoids writing zero values on the worksheet `penguins` corresponding to the empty cells in `data_penguins_raw` by using the excel formula `IF(sheet!cell="", "", sheet!cell)`. 
+
+Then, you can use the function [writeFormula](https://ycphs.github.io/openxlsx/reference/writeFormula.html) to write the excel formula stored in the variable `hyperlink_tib$link_rewritten` in the column `any_comment`.
+```r
+# define the arguments of the write_hyperlink()
+dataset <- data_penguins_mod
+metadata <- data_penguins_raw
+excel_sheet <- "penguins"
+first_row <- first_row
+meta_ws_name <- "penguins_raw"
+wb <- wb
+  
+hyperlink_tib <- dataset |>
+    dplyr::mutate(
+      # find the metadata rows where id matches `Individual ID`
+      list_indices_indicators_to_link = as.integer(purrr::map(
+        id,
+        ~ match(
+          .x,
+          metadata$`Individual ID`
+        )
+      )),
+      # write the link to make the change of a cell value in penguins_raw reactive
+      # in the other sheet
+      cell = paste0(
+        meta_ws_name, "!",
+        # get the capital letter for the excel column corresponding to the column
+        # index in the penguins_raw dataset
+        LETTERS[which(colnames(metadata) == "Comments")],
+        list_indices_indicators_to_link + first_row
+      ),
+      # add an IF condition to get an empty cell if the resp. Comments value in
+      # penguins_raw is empty
+      link_rewritten = paste0(
+        "=IF(", cell, '="","",', cell, ")"
+      )
+    )
+
+  # write the hyperlink
+  openxlsx::writeFormula(
+    wb = wb,
+    sheet = excel_sheet,
+    x = hyperlink_tib$link_rewritten,
+    startCol = which(names(dataset) == "any_comment"),
+    startRow = as.integer(first_row) + 1L
+  )
+
+```
+
+### Step 10: Save your workbook
+
+The final step is to save your workbook in a folder. Let us say that you want to save it in a temporary directory name.
+
+```r
+folder_xlsx_file <- tempdir()
+```
+Then, use the function [`saveWorkbook`](https://ycphs.github.io/openxlsx/reference/saveWorkbook.html) to save it by specifying the filename in the argument `file`. You can also decide whether you want to allow overwriting your precedent file by setting `TRUE` or `FALSE` to the argument `overwrite`. 
+
+```r
+# save the workbook
+openxlsx::saveWorkbook(
+  wb = wb,
+  file = file.path(
+    folder_xlsx_file,
+    stringr::str_c(Sys.Date(), "penguins.xlsx", sep = "_")
+  ),
+  overwrite = TRUE
+)
+```
+
+## Thank you
+
+Thank you for reading this post and I hope you will enjoy working with `openxlsx` as I do. 
+
+Thanks to the [`openxlsx`](https://github.com/ycphs/openxlsx/) developers [Philipp Schauberger](https://github.com/ycphs) and [Alexander Walker](https://github.com/awalker89)!
+
+Please do not hesitate to write a comment. 
