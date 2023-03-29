@@ -38,20 +38,59 @@ all my [`openxlsx`](https://github.com/ycphs/openxlsx/) styles are written in th
 ### Step 1: Prepare your data and create your workbook
 Let us create your first workbook! To do so, you can use the function [`createWorkbook()`](https://ycphs.github.io/openxlsx/reference/createWorkbook.html). 
 
+```r
+#--- install the package openxlsx.demo -----------------------------------------
+# install only if necessary
+
+# install.packages("devtools")
+# devtools::install_github("Layalchristine24/openxlsx.demo")
+
+#--- create workbook -----------------------------------------------------------
+# create a new workbook
+wb <- openxlsx::createWorkbook()
+```
+
 As you will write your data in several worksheets, create a new one with [`addWorksheet()`](https://ycphs.github.io/openxlsx/reference/addWorksheet.html). You can also name the worksheets by using the argument `sheetName`. 
 
-In the example below, you will write the `palmerpenguins::penguins` data set
+In this example, you will write the `palmerpenguins::penguins` data set
 into your first worksheet. Ideally, you want to modify it and add some features.
+
+```r
+#--- create 1st worksheet ------------------------------------------------------
+# add a new worksheet to the workbook
+ws_penguins <- openxlsx::addWorksheet(
+  wb = wb,
+  sheetName = "penguins"
+)
+```
 
 For the second worksheet, you will use the `palmerpenguins::penguins_raw` data set which
 contains all the variables and original names as downloaded (please refer to the
 [`palmerpenguins` Homepage](https://allisonhorst.github.io/palmerpenguins/) for more details). 
 
-I use the function [`prepare_penguins_mod()`](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/prepare_penguins_mod.R) to modify the data set `palmerpenguins::penguins` by adding to it some new variables and rearrange the columns.
+```r
+#--- create 2nd worksheet ------------------------------------------------------
+# add a new worksheet to the workbook
+ws_penguins_raw <- openxlsx::addWorksheet(
+  wb = wb,
+  sheetName = "penguins_raw"
+)
+```
 
-Finally, you can write the data into the workbook thanks to the function [`writeData()`](https://ycphs.github.io/openxlsx/reference/writeData.html). Note that you set the first active row to be the second one by running `first_row <- 2L` as you want to leave the first row free for some future comments. 
+You can use the function [`prepare_penguins_mod()`](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/prepare_penguins_mod.R) to modify the data set `palmerpenguins::penguins` by adding to it some new variables and rearrange the columns.
 
-As you want to add a specific style to header by directly using [`writeData()`](https://ycphs.github.io/openxlsx/reference/writeData.html), you first need to define the header style in an external `R` file if you are working inside of a package by using the function [`createStyle()`](https://ycphs.github.io/openxlsx/reference/createStyle.html). Note that the argument `textDecoration` is set to `bold`, all the cell borders will be printed as `border` is set to `c("top", "bottom", "left", "right")` and they will have the `medium` size because `borderStyle` is set to `medium`. You also set `wrapText` to `TRUE` such that the text in a cell will automatically be wrapped if it is too long. 
+```r
+#--- define your datasets ------------------------------------------------------
+data_penguins <- palmerpenguins::penguins
+data_penguins_raw <- palmerpenguins::penguins_raw
+
+#--- modify data ---------------------------------------------------------------
+data_penguins_mod <- openxlsx.demo::prepare_penguins_mod(
+  data = data_penguins,
+  data_raw = data_penguins_raw
+)
+```
+As you want to add a specific style to header by directly using [`writeData()`](https://ycphs.github.io/openxlsx/reference/writeData.html), you first need to define the header style in a separated `R` file if you are working inside of a package by using the function [`createStyle()`](https://ycphs.github.io/openxlsx/reference/createStyle.html). Note that the argument `textDecoration` is set to `bold`, all the cell borders will be printed as `border` is set to `c("top", "bottom", "left", "right")` and they will have the `medium` size because `borderStyle` is set to `medium`. You also set `wrapText` to `TRUE` such that the text in a cell will automatically be wrapped if it is too long. 
  
 ```r
 # define style style_variables_names
@@ -66,47 +105,13 @@ style_variables_names <- openxlsx::createStyle(
 )
 ```
 
-To see what your workbook looks like, use the function [`openXL()`](https://ycphs.github.io/openxlsx/reference/openXL.html).
+Finally, you can write the data into the workbook thanks to the function [`writeData()`](https://ycphs.github.io/openxlsx/reference/writeData.html). Note that you set the first active row to be the second one by running `first_row <- 2L` as you want to leave the first row free for some future comments. 
 
-``` r
-#--- install the package openxlsx.demo -----------------------------------------
-# install only if necessary
-
-# install.packages("devtools")
-# devtools::install_github("Layalchristine24/openxlsx.demo")
-
-#--- define your datasets ------------------------------------------------------
-data_penguins <- palmerpenguins::penguins
-data_penguins_raw <- palmerpenguins::penguins_raw
-
-#--- create workbook -----------------------------------------------------------
-# create a new workbook
-wb <- openxlsx::createWorkbook()
-
-#--- create worksheet ----------------------------------------------------------
-# add a new worksheet to the workbook
-ws_penguins <- openxlsx::addWorksheet(
-  wb = wb,
-  sheetName = "penguins"
-)
-
-# add a new worksheet to the workbook
-ws_penguins_raw <- openxlsx::addWorksheet(
-  wb = wb,
-  sheetName = "penguins_raw"
-)
-
+```r
 #--- define first row ----------------------------------------------------------
 # first row where to write the data (set to 2 because you want to write comments
 # in the first row)
 first_row <- 2L
-
-#--- modify data ---------------------------------------------------------------
-data_penguins_mod <- openxlsx.demo::prepare_penguins_mod(
-  data = data_penguins,
-  data_raw = data_penguins_raw
-)
-
 
 #--- write data ----------------------------------------------------------------
 # write the palmerpenguins::penguins data
@@ -129,7 +134,11 @@ openxlsx::writeData(
   headerStyle = style_variables_names, # add a style directly to the header
   withFilter = TRUE # filter on everywhere
 )
+```
 
+To see what your workbook looks like, use the function [`openXL()`](https://ycphs.github.io/openxlsx/reference/openXL.html).
+
+``` r
 # View your workbook
 openxlsx::openXL(wb)
 ```
@@ -140,27 +149,17 @@ openxlsx::openXL(wb)
 Let us say you would like to provide a list of options in the form of a drop-down list. 
 
 First, you need to write the options in another worksheet which you will reference to. You can do it by using the function [`addWorksheet()`](https://ycphs.github.io/openxlsx/reference/addWorksheet.html). 
-
-Then, write the options in the new worksheet with [`writeData()`](https://ycphs.github.io/openxlsx/reference/writeData.html).
-
-Finally, add the drop-down values to all the cells of your column with [`dataValidation()`](https://ycphs.github.io/openxlsx/reference/dataValidation.html). You will use the following arguments: 
-
-- `operator` should be `equal` (but can also be ignored);
-
-- `type` should be `list` as you want a drop-down list;
-
-- `value` should refer to the cells coordinates of the worksheet where you saved your options, i.e. `'drop-down-values'!$A$1:$A$5`. 
-
-Do not worry about the warning message but make sure it works for your workbook (see [stackoverflow](https://stackoverflow.com/questions/72278966/data-validation-warning-message-with-openxlsx-package-in-r-sprintf)).
-
-``` r
-#--- add drop-down values to size ----------------------------------------------
+```r
 # add worksheet "Drop-down values" to the workbook
 ws_drop_down_values <- openxlsx::addWorksheet(
   wb = wb,
   sheetName = "drop-down-values"
 )
+```
 
+Then, write the options in the new worksheet with [`writeData()`](https://ycphs.github.io/openxlsx/reference/writeData.html).
+
+```r
 # add options for the drop-down in a second sheet
 options <- c(
   "huge",
@@ -178,9 +177,19 @@ openxlsx::writeData(
   startCol = 1
 )
 
-# openxlsx::openXL(wb)
+```
+Finally, add the drop-down values to all the cells of your column with [`dataValidation()`](https://ycphs.github.io/openxlsx/reference/dataValidation.html). You will use the following arguments: 
 
-# add drop-downs
+- `operator` should be `equal` (but can also be ignored);
+
+- `type` should be `list` as you want a drop-down list;
+
+- `value` should refer to the cells coordinates of the worksheet where you saved your options, i.e. `'drop-down-values'!$A$1:$A$5`. 
+
+Do not worry about the warning message but make sure it works for your workbook (see [stackoverflow](https://stackoverflow.com/questions/72278966/data-validation-warning-message-with-openxlsx-package-in-r-sprintf)).
+
+``` r
+# add drop-down values
 openxlsx::dataValidation(
   wb = wb,
   sheet = ws_penguins,
@@ -198,7 +207,7 @@ openxlsx::openXL(wb)
 
 #### Step 2.3: Add colors to your drop-down values
 
-To make it more readable, you could add some colors to the different options of your drop-down list by using the function [`conditionalFormatting()`](https://ycphs.github.io/openxlsx/reference/conditionalFormatting.html). The specific arguments to use in this example are the following: 
+To make it more readable, you could add some colors to the different options of your drop-down list by using the function [`conditionalFormatting()`](https://ycphs.github.io/openxlsx/reference/conditionalFormatting.html). You can see other examples by consulting this [webpage](https://ycphs.github.io/openxlsx/articles/Formatting.html#conditional-formatting). The specific arguments to use in this example are the following: 
 
 - `rule`: Allows to enter the condition under which to apply the formatting. In this example, it will be the values of the drop-down list; i.e. `huge`, `big`, `normal`, `small` and `tiny`;
 
@@ -206,12 +215,10 @@ To make it more readable, you could add some colors to the different options of 
 
 - `type`: Describes the `rule`. In this example, `type` should be equal to `contains` as you want to apply a specific style to all the cells containing the drop-down value defined in the `rule` argument.
 
-
 You will then need to create a style for each of the colors you want by using the function [`createStyle()`](https://ycphs.github.io/openxlsx/reference/createStyle.html). Note that I directly created the different styles in the following chunk as they are not exported by [`openxlsx.demo`](https://github.com/Layalchristine24/openxlsx.demo), but you could also write them in a separated `R` file as explained in the first section of this post.
 
 ```r
 #--- add colors for drop-down values to size -----------------------------------
-# see https://ycphs.github.io/openxlsx/articles/Formatting.html#conditional-formatting
 openxlsx::conditionalFormatting(wb,
   sheet = ws_penguins,
   cols = which(names(data_penguins_mod) == "size"),
