@@ -4,9 +4,9 @@ categories:
 - R
 date: "2023-03-28"
 draft: false
-excerpt: Create great workbooks with {openxlsx}
+excerpt: Create great workbooks using {openxlsx}
 layout: single
-subtitle: Some {openxlsx} features and best practices
+subtitle: The package {openxlsx.demo} explained in 10 steps
 title: Working with {openxlsx}
 ---
 
