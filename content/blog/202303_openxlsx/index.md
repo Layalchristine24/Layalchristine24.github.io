@@ -64,11 +64,11 @@ To see what your workbook looks like, use the function [`openXL()`](https://ycph
 data_penguins <- palmerpenguins::penguins
 data_penguins_raw <- palmerpenguins::penguins_raw
 
-#--- create workbook ---------------------------------------------------------
+#--- create workbook -----------------------------------------------------------
 # create a new workbook
 wb <- openxlsx::createWorkbook()
 
-#--- create worksheet --------------------------------------------------------
+#--- create worksheet ----------------------------------------------------------
 # add a new worksheet to the workbook
 ws_penguins <- openxlsx::addWorksheet(
   wb = wb,
@@ -81,19 +81,19 @@ ws_penguins_raw <- openxlsx::addWorksheet(
   sheetName = "penguins_raw"
 )
 
-#--- define first row --------------------------------------------------------
+#--- define first row ----------------------------------------------------------
 # first row where to write the data (set to 2 because we want to write comments
 # in the first row)
 first_row <- 2L
 
-#--- modify data -------------------------------------------------------------
+#--- modify data ---------------------------------------------------------------
 data_penguins_mod <- openxlsx.demo::prepare_penguins_mod(
   data = data_penguins,
   data_raw = data_penguins_raw
 )
 
 
-#--- write data --------------------------------------------------------------
+#--- write data ----------------------------------------------------------------
 # write the palmerpenguins::penguins data
 openxlsx::writeData(
   wb = wb,
@@ -115,9 +115,9 @@ openxlsx::writeData(
 # View your workbook
 openxlsx::openXL(wb)
 ```
+### Step 2: Create a drop-down list
 
-
-### Step 2: Add drop-down values to a variable
+#### Step 2.1: Add drop-down values to a variable
 
 Let us say you would like to provide a list of options in the form of a drop-down list. 
 
@@ -136,7 +136,7 @@ Finally, add the drop-down values to all the cells of your column with [`dataVal
 Do not worry about the warning message but make sure it works for your workbook (see [stackoverflow](https://stackoverflow.com/questions/72278966/data-validation-warning-message-with-openxlsx-package-in-r-sprintf)).
 
 ``` r
-#--- add drop-down values to size --------------------------------------------
+#--- add drop-down values to size ----------------------------------------------
 # add worksheet "Drop-down values" to the workbook
 ws_drop_down_values <- openxlsx::addWorksheet(
   wb = wb,
@@ -178,7 +178,7 @@ openxlsx::openXL(wb)
 ```
 
 
-### Step 3: Add colors to your drop-down values
+#### Step 2.3: Add colors to your drop-down values
 
 To make it more readable, you could add some colors to the different options of your drop-down list by using the function [`conditionalFormatting()`](https://ycphs.github.io/openxlsx/reference/conditionalFormatting.html). The specific arguments to use in our case are the following: 
 
@@ -192,7 +192,7 @@ To make it more readable, you could add some colors to the different options of 
 You will then need to create a style for each of the colors you want by using the function [`createStyle()`](https://ycphs.github.io/openxlsx/reference/createStyle.html). Note that I directly created the different styles in the following chunk as they are not exported by [`openxlsx.demo`](https://github.com/Layalchristine24/openxlsx.demo), but you could also write them in a separated `R` file as explained in the first section of this post.
 
 ```r
-#--- add colors for drop-down values to size ---------------------------------
+#--- add colors for drop-down values to size -----------------------------------
 # see https://ycphs.github.io/openxlsx/articles/Formatting.html#conditional-formatting
 openxlsx::conditionalFormatting(wb,
   sheet = ws_penguins,
@@ -256,4 +256,39 @@ openxlsx::openXL(wb)
 ```
 
 
+#### Step 2.4: Make the sheet `drop-down-values` invisible
+As you might not want to show the sheet where you wrote the options for the drop-down list, you can make it invisibile thanks to the function [`sheetVisibility()`](https://ycphs.github.io/openxlsx/reference/sheetVisibility.html). You need to specify the workbook name (i.e. `wb`) as well as the worksheet number you want to make invisible --- in our case, this number is stored in the object `ws_drop_down_values` --- and you can finally assign it to `FALSE`.  
 
+```r
+#--- hide sheet ----------------------------------------------------------------
+# hide sheet "drop-down-values"
+openxlsx::sheetVisibility(wb)[ws_drop_down_values] <- FALSE
+
+# View your workbook
+openxlsx::openXL(wb)
+```
+
+### Step 3: protect your worksheets
+You can protect your worksheets from any modification thanks to the function [`protectWorksheet()`](https://ycphs.github.io/openxlsx/reference/protectWorksheet.html). By assigning `FALSE` to the arguments `lockAutoFilter` and `lockFormattingCells`, even though the worksheet is protected, we still allow for filtering and for formatting cells. You can also add other options like defining a password for example. Please check the function [reference](https://ycphs.github.io/openxlsx/reference/protectWorksheet.html).
+
+```r
+#--- protect worksheets --------------------------------------------------------
+# protect the worksheet ws_penguins
+openxlsx::protectWorksheet(
+  wb = wb,
+  sheet = ws_penguins,
+  lockAutoFilter = FALSE, # allows filtering
+  lockFormattingCells = FALSE # allows formatting cells
+)
+
+# protect the worksheet ws_penguins_raw
+openxlsx::protectWorksheet(
+  wb = wb,
+  sheet = ws_penguins_raw,
+  lockAutoFilter = FALSE, # allows filtering
+  lockFormattingCells = FALSE # allows formatting cells
+)
+
+# View your workbook
+# openxlsx::openXL(wb)
+```
