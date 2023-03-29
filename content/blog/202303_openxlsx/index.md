@@ -406,7 +406,7 @@ openxlsx::openXL(wb)
 ```
 
 ### Step 7: Lock and unlock cells
-Now that your worksheets are protected, you might want to unlock specific cells and to highlight which cells are locked, even though they seem to be editable (like `any_comments` in your example).
+Now that your worksheets are protected, you might want to unlock specific cells and to highlight which cells are locked, even though they seem to be editable (like in the column `any_comment` in your example).
 
 You first need to define the styles in an external `R` file if you are working inside of a package by using the function [`createStyle()`](https://ycphs.github.io/openxlsx/reference/createStyle.html). Note that the argument `locked` is set to `FALSE` to unlock a cell and to `TRUE` to lock another one.
 
@@ -434,11 +434,10 @@ style_locked <- openxlsx::createStyle(
 )
 ```
 
-Then, you can apply these styles thanks to the function [`addStyle()`](https://ycphs.github.io/openxlsx/reference/addStyle.html). Note 
+Then, you can apply these styles thanks to the function [`addStyle()`](https://ycphs.github.io/openxlsx/reference/addStyle.html). Note that `gridExpand` is set to `TRUE` because you want these styles to be applied to all combinations of your defined rows and columns.
 
 ```r
 #--- unlock column size (ws_penguins) and Comments (ws_penguins_raw) -----------
-
 # apply unlocked style to size column
 openxlsx::addStyle(
   wb = wb,
@@ -446,7 +445,7 @@ openxlsx::addStyle(
   style = style_unlocked,
   rows = first_row + seq_len(nrow(data_penguins_mod)),
   cols = which(names(data_penguins_mod) == "size"),
-  gridExpand = FALSE
+  gridExpand = TRUE
 )
 
 # apply unlocked style to Comments column
@@ -456,7 +455,7 @@ openxlsx::addStyle(
   style = style_unlocked,
   rows = first_row + seq_len(nrow(data_penguins_raw)),
   cols = which(names(data_penguins_raw) == "Comments"),
-  gridExpand = FALSE
+  gridExpand = TRUE
 )
 
 #--- lock column any_comments in ws_penguins -----------------------------------
@@ -468,13 +467,14 @@ openxlsx::addStyle(
   style = style_locked,
   rows = first_row + seq_len(nrow(data_penguins_mod)),
   cols = which(names(data_penguins_mod) == "any_comment"),
-  gridExpand = FALSE
+  gridExpand = TRUE
 )
 
 # View your workbook
 openxlsx::openXL(wb)
 ```
-blabla bla
+
+You have surely noticed that some cells in your first worksheet are empty. Suppose you would like to make it possible to add a value to these empty cells. Therefore, you need to retrieve the coordinates of these empty cells. You can use the function [`find_cells_to_unlock`](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/find_cells_to_unlock.R) to find all `NA` values in your `data_penguins_mod` data set and get their respective coordinates.
 
 ```r 
 #--- unlock specific cells -----------------------------------------------------
@@ -488,8 +488,15 @@ tib_indices <- openxlsx.demo::find_cells_to_unlock(
 isna_cases <- tib_indices |>
   dplyr::filter(to_unlock == 1) |>
   dplyr::arrange(rows, columns)
+  
+  
+# View isna_cases
+View(isna_cases)
+```
+Then, you can unlock these specific cells by applying the `style_unlocked` to them with [`addStyle()`](https://ycphs.github.io/openxlsx/reference/addStyle.html). Please note that 
+`gridExpand` is now set to `FALSE` because we only want to unlock these specific cells.
 
-
+```r 
 # apply unlocked style to isna_cases cells
 openxlsx::addStyle(
   wb = wb,
@@ -500,6 +507,12 @@ openxlsx::addStyle(
   gridExpand = FALSE
 )
 
+# View your workbook
+openxlsx::openXL(wb)
+```
+As the first row has been kept empty for some possible future comments, you want to unlock it. Just procede as before by using [`addStyle()`](https://ycphs.github.io/openxlsx/reference/addStyle.html) and setting `gridExpand` to `TRUE` because all columns should have their first row unlocked.
+
+```r
 # apply unlocked style to cells in 1st row of ws_penguins (for comments)
 openxlsx::addStyle(
   wb = wb,
@@ -520,8 +533,11 @@ openxlsx::addStyle(
   gridExpand = TRUE
 )
 
-# openxlsx::openXL(wb)
+# View your workbook
+openxlsx::openXL(wb)
+```
 
+```r 
 #--- add filter for several variables ------------------------------------------
 # add filtering possibility
 openxlsx::addFilter(
