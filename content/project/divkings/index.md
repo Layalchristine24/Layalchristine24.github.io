@@ -23,7 +23,7 @@ title: divkings R package
 
 ## Concept of the project
 
-The goal of divkings is to give access to user-friendly tools to select
+The goal of `divkings` is to give access to user-friendly tools to select
 the companies which increase the size of their dividend. Some are called
 *dividend kings* or *dividend aristocrats* because their dividends have
 raised continuously over the past 50 and 25 years respectively and they
@@ -39,7 +39,7 @@ This is a new project, so please stay tuned !
 
 ## Installation
 
-You can install the development version of divkings from
+You can install the development version of `divkings` from
 [GitHub](https://github.com/) with:
 
 ``` r

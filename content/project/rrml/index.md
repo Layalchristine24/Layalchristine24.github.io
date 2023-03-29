@@ -23,7 +23,7 @@ title: rrml R package
 ---
 
 ## Prerequisite
-The R package *rrml* must have a kamila-clustered dataset (in our case, the Swiss Pension Register) as input. This is linked to the package [rrclust](https://github.com/asam-group/rrclust) where
+The R package `rrml` must have a kamila-clustered dataset (in our case, the Swiss Pension Register) as input. This is linked to the package [rrclust](https://github.com/asam-group/rrclust) where
 the [kamila](https://github.com/ahfoss/kamila)'s algorithm allows to cluster
 the Swiss pension register (cf. [rrclust project](https://layalchristinelettry.rbind.io/project/rrclust/)).
 
@@ -51,7 +51,7 @@ The following methods are intended to be tested on the kamila-clustered Swiss pe
 ## Evaluation of the results
 
 The first tests driven with the linear discriminant analysis tend to give a better performance in terms of estimation power 
-than the ones performed in the [forestoasi project](https://layalchristinelettry.rbind.io/project/forestoasi/) on an arbitrarily clustered pension register. We are confident
+than the ones performed in the [`forestoasi` project](https://layalchristinelettry.rbind.io/project/forestoasi/) on an arbitrarily clustered pension register. We are confident
 that the other methods mentioned above will allow us to get good results as well.
 
 Stay tuned !

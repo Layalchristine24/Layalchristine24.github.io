@@ -23,12 +23,12 @@ title: simulreturns R package
 
 ## Concept of the project
 
-The goal of simulreturns is to give access to user-friendly tools for
+The goal of `simulreturns` is to give access to user-friendly tools for
 computing the final value of an investment project.
 
 ## Installation
 
-You can install the development version of simulreturns from
+You can install the development version of `simulreturns` from
 [GitHub](https://github.com/) with:
 
 ``` r
