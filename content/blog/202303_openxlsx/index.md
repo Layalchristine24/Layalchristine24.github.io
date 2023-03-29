@@ -36,7 +36,22 @@ For instance, in my [`openxlsx.demo`](https://github.com/Layalchristine24/openxl
 all my [`openxlsx`](https://github.com/ycphs/openxlsx/) styles are written in the [`R/openxlsx_styles.R`](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/openxlsx_styles.R) file. By loading the package with `pkgload::load_all()`, you will be able to use your styles while you work on your code, as they do not need to be exported.
 
 ### Step 1: Prepare your data and create your workbook
+Let us create your first workbook! To do so, you can use the function [`createWorkbook()`](https://ycphs.github.io/openxlsx/reference/createWorkbook.html). 
 
+As you will write your data in several worksheets, create a new one with [`addWorksheet()`](https://ycphs.github.io/openxlsx/reference/addWorksheet.html). You can also name the worksheets by using the argument `sheetName`. 
+
+In the example below, we will write the `palmerpenguins::penguins` data set
+into our first worksheet. Ideally, we want to modify it and add some features.
+
+For the second worksheet, we will use the `palmerpenguins::penguins_raw` data set which
+contains all the variables and original names as downloaded (please refer to the
+[`palmerpenguins` Homepage](https://allisonhorst.github.io/palmerpenguins/) for more details). 
+
+We use the function [`prepare_penguins_mod()`](https://github.com/Layalchristine24/openxlsx.demo/blob/main/R/prepare_penguins_mod.R) to modify the data set `palmerpenguins::penguins` by adding to it some new variables and rearrange the columns.
+
+Finally, we can write the data into the workbook thanks to the function [`writeData()`](https://ycphs.github.io/openxlsx/reference/writeData.html). Note that we set the first active row to be the second one by running `first_row <- 2L` as we want to leave the first row free for some future comments. You can see that the function [`writeData()`](https://ycphs.github.io/openxlsx/reference/writeData.html) offers you many options such as defining a header style or adding some borders, which we are not going to do here to keep it simple.
+
+To see what your workbook looks like, use the function [`openXL()`](https://ycphs.github.io/openxlsx/reference/openXL.html).
 
 ``` r
 #--- install the package openxlsx.demo -----------------------------------------
@@ -157,7 +172,16 @@ openxlsx::openXL(wb)
 
 ### Step 3: Add colors to your drop-down values
 
-To make it more readable, you could add some colors to the different options of your drop-down list. You will then need to create a style for each of the colors you want. Note that I directly created the style in the following chunk as they are not exported by [`openxlsx.demo`](https://github.com/Layalchristine24/openxlsx.demo).
+To make it more readable, you could add some colors to the different options of your drop-down list by using the function [`conditionalFormatting()`](https://ycphs.github.io/openxlsx/reference/conditionalFormatting.html). The specific arguments to use in our case are the following: 
+
+- `rule`: Allows to enter the condition under which to apply the formatting. In our case, it will be the values of the drop-down list; i.e. `huge`, `big`, `normal`, `small` and `tiny`.
+
+- `style`: Defines the style to apply if the condition set in the `rule` argument is fulfilled.
+
+- `type`: Describes the `rule`. In our case, `type` should be equal to `contains` as we want to apply a specific style to all the cells containing the drop-down value defined in the `rule` argument.
+
+
+You will then need to create a style for each of the colors you want by using the function [`createStyle()`](https://ycphs.github.io/openxlsx/reference/createStyle.html). Note that I directly created the different styles in the following chunk as they are not exported by [`openxlsx.demo`](https://github.com/Layalchristine24/openxlsx.demo), but you could also write them in a separated `R` file as explained in the first section of this post.
 
 ```r
 #--- add colors for drop-down values to size ---------------------------------
