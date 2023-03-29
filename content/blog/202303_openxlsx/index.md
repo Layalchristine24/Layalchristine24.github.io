@@ -589,7 +589,7 @@ To show you how it works, you can look at the content of the function [write_hyp
 
 Please note that this function avoids writing zero values on the worksheet `penguins` corresponding to the empty cells in `data_penguins_raw` by using the excel formula `IF(sheet!cell="", "", sheet!cell)`. 
 
-Then, you can use the function [writeFormula](https://ycphs.github.io/openxlsx/reference/writeFormula.html) to write the excel formula stored in the variable `hyperlink_tib$link_rewritten` in the column `any_comment`.
+Then, you can use the function [writeFormula](https://ycphs.github.io/openxlsx/reference/writeFormula.html) to write the excel formula stored in the variable `hyperlink_tib$link_rewritten` into the column `any_comment`. That is why `x` should be set to `hyperlink_tib$link_rewritten` and `startCol` to the column index of `any_comment`.
 ```r
 # define the arguments of the write_hyperlink()
 dataset <- data_penguins_mod
