@@ -147,5 +147,73 @@ openxlsx::openXL(wb)
 ```
 
 
+### Step 3: Add colors to your drop-down values
+
+To make it more readable, you could add some colors to the different options of your drop-down list. You will then need to create a style for each of the colors you want.
+
+```r
+#--- add colors for drop-down values to size ---------------------------------
+# see https://ycphs.github.io/openxlsx/articles/Formatting.html#conditional-formatting
+openxlsx::conditionalFormatting(wb,
+  sheet = ws_penguins,
+  cols = which(names(data_penguins_mod) == "size"),
+  rows = first_row + seq_len(nrow(data_penguins_mod)),
+  type = "contains",
+  rule = "huge", # condition under which to apply the formatting
+  style = openxlsx::createStyle(
+    bgFill = "#AAAAAA"
+  )
+)
+
+openxlsx::conditionalFormatting(wb,
+  sheet = ws_penguins,
+  cols = which(names(data_penguins_mod) == "size"),
+  rows = first_row + seq_len(nrow(data_penguins_mod)),
+  type = "contains",
+  rule = "big", # condition under which to apply the formatting
+  style = openxlsx::createStyle(
+    bgFill = "#6FA8DC"
+  )
+)
+
+openxlsx::conditionalFormatting(wb,
+  sheet = ws_penguins,
+  cols = which(names(data_penguins_mod) == "size"),
+  rows = first_row + seq_len(nrow(data_penguins_mod)),
+  type = "contains",
+  rule = "normal", # condition under which to apply the formatting
+  style = openxlsx::createStyle(
+    bgFill = "#00AA00"
+  )
+)
+
+openxlsx::conditionalFormatting(wb,
+  sheet = ws_penguins,
+  cols = which(names(data_penguins_mod) == "size"),
+  rows = first_row + seq_len(nrow(data_penguins_mod)),
+  type = "contains",
+  rule = "small", # condition under which to apply the formatting
+  style = openxlsx::createStyle(
+    bgFill = "#CCCC00"
+  )
+)
+
+openxlsx::conditionalFormatting(wb,
+  sheet = ws_penguins,
+  cols = which(names(data_penguins_mod) == "size"),
+  rows = first_row + seq_len(nrow(data_penguins_mod)),
+  type = "contains",
+  rule = "tiny", # condition under which to apply the formatting
+  style = openxlsx::createStyle(
+    bgFill = "#CC0000",
+    fontColour = "#EEEEEE"
+  )
+)
+
+# View your workbook
+openxlsx::openXL(wb)
+
+```
+
 
 
