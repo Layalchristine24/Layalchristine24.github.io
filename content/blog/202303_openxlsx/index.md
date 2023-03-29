@@ -305,10 +305,9 @@ style_body <- openxlsx::createStyle(
   wrapText = TRUE
 )
 ```
+Then, you can set the column width to a particular value as it is done in this example by setting `widths` to 22, or you can also choose the option `auto` for automatic sizing.
 
-blablabla
 ```r
-# --- set columns width --------------------------------------------------------
 # set all cols but any_comment to a specific width in ws_penguins
 openxlsx::setColWidths(
   wb = wb,
@@ -325,8 +324,12 @@ openxlsx::setColWidths(
   widths = 22 # "auto"for automatic sizing
 )
 
-# openxlsx::openXL(wb)
+# View your workbook
+openxlsx::openXL(wb)
+```
+As the cell width is now set, you can wrap the text by applying the style `style_body` you defined earlier to all the cells of your columns thanks to the function [`addStyle()`](https://ycphs.github.io/openxlsx/reference/addStyle.html). Note that `gridExpand` should be set to `TRUE` as you want your style to be applied to all combinations of rows and columns you defined in the `rows` and `cols` arguments.
 
+```r
 # --- wrap text ----------------------------------------------------------------
 # add style_body to wrap text in ws_penguins
 # (see option 'wrapText = TRUE' in 'createStyle()')
