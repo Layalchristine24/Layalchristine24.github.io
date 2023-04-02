@@ -2,11 +2,11 @@
 author: Layal Christine Lettry
 categories:
 - R
-date: "2023-03-29"
+date: "2023-04-02"
 draft: false
 excerpt: Create great workbooks using {openxlsx}
 layout: single
-subtitle: The package {openxlsx.demo} explained in 10 steps
+subtitle: The package {openxlsx.demo} explained in 11 steps
 title: Working with {openxlsx}
 ---
 
@@ -636,7 +636,30 @@ hyperlink_tib <- dataset |>
 
 ```
 
-### Step 10: Save your workbook
+### Step 10: Freeze a worksheet pane
+To freeze a worksheet pane, you can use the `openxslx::freezePane()`. In this example, we will freeze the first two rows and the first column of the worksheet `penguins` and the first two rows of the worksheet `penguins_raw`.
+
+```r
+# freeze the first rows up to (first_row + 1L) and the first column in ws_penguins
+openxlsx::freezePane(
+  wb = wb,
+  sheet = ws_penguins,
+  firstActiveRow = first_row + 1L,
+  firstActiveCol = 2
+)
+
+# freeze the first rows up to (first_row + 1L) in meta_ws_name
+openxlsx::freezePane(
+  wb = wb,
+  sheet = ws_penguins_raw,
+  firstActiveRow = first_row + 1L
+)
+
+# View your workbook
+openxlsx::openXL(wb)
+```
+
+### Step 11: Save your workbook
 
 The final step is to save your workbook in a folder. Let us say that you want to save it in a temporary directory name.
 
@@ -657,10 +680,10 @@ openxlsx::saveWorkbook(
 )
 ```
 
-## Thank you
+## Acknowledgements
 
-Thank you for reading this post and I hope you will enjoy working with `openxlsx` as I do. 
+Thank you for reading this post and I hope you will enjoy working with [`openxlsx`](https://github.com/ycphs/openxlsx/) as I do. 
 
-Thanks to the [`openxlsx`](https://github.com/ycphs/openxlsx/) developers [Philipp Schauberger](https://github.com/ycphs) and [Alexander Walker](https://github.com/awalker89)!
+Many thanks to the [`openxlsx`](https://github.com/ycphs/openxlsx/) developers [@Philipp Schauberger](https://github.com/ycphs) and [@Alexander Walker](https://github.com/awalker89)!
 
 Please do not hesitate to write a comment. 
