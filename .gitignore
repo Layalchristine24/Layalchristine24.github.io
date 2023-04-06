@@ -5,3 +5,7 @@
 /blogdown
 public/ # if using Netlify
 .DS_Store
+Thumbs.db
+.hugo_build.lock
+/public/
+/resources/
