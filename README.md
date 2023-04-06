@@ -1,9 +1,6 @@
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+# Hi there 👋
 
-# Hi there! I am Layal, nice to meet you
-
-<!-- badges: start -->
-<!-- badges: end -->
+## I am Layal, nice to meet you!
 
 I am pleased to share my projects and interests with you on my [website](https://layalchristinelettry.rbind.io).
 	
