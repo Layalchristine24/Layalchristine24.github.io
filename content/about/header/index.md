@@ -16,4 +16,4 @@ Between 2017 and 2022, I worked as an econometrician at the [Federal Social Insu
 
 Besides, I have become a member of the [ASAM Group](https://www.unifr.ch/inf/asam/en/) (Applied Statistics and Modelling) and I have worked on a research project about classification and clustering methods applied to the  Swiss Pension Register (CCO/FSIO).
 
-Finally, I have been working with R since my Bachelor's studies, and I am passionate about the R ecosystem. I joined [cynkra GmbH](https://www.cynkra.com) in October 2022 as a data scientist. 
+Finally, I have been working with R since my Bachelor's studies, and I am passionate about the R ecosystem. I joined [cynkra GmbH](https://www.cynkra.com) in October 2022 as a data scientist, working as an R consultant and contributing to the R community.
