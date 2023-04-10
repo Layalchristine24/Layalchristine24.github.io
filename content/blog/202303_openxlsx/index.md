@@ -43,7 +43,7 @@ Let us create your first workbook! To do so, you can use the function [`createWo
 # install only if necessary
 
 # install.packages("devtools")
-# devtools::install_github("Layalchristine24/openxlsx.demo", dependencies = TRUE)
+# devtools::install_github("Layalchristine24/openxlsx.demo")
 
 #--- create workbook -----------------------------------------------------------
 # create a new workbook
