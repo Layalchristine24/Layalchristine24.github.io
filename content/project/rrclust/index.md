@@ -7,7 +7,7 @@ categories:
 - package
 date: "2022-04-30"
 draft: false
-excerpt: rrclust (private GitHub repository)
+excerpt: rrclust
 layout: single
 links:
 - icon: github
