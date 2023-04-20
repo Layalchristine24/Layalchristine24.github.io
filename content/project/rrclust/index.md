@@ -5,9 +5,9 @@ categories:
 - clustering
 - R
 - package
-date: "2022-04-30"
+date: "2023-04-20"
 draft: false
-excerpt: rrclust
+excerpt: rrclust (public GitHub repository)
 layout: single
 links:
 - icon: github
