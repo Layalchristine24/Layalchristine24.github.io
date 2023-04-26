@@ -32,13 +32,13 @@ Therefore, I looked for information about the installation of [Plausible Analyti
 to start measuring site traffic metrics for my personal website built with [Hugo Apéro](https://hugo-apero-docs.netlify.app). However, I did not find any clear 
 description about the installation process. 
 
-That is why I would like to share with you my experience in this article.
+That is why I would like to share my experience with you in this article.
 
 ### Why choose Plausible Analytics over Google Analytics?
 
 #### Context
 In 2022, some countries prohibited the use of [Google Analytics](https://analytics.google.com/analytics/web/provision/#/provision) 
-as they considered it as unlawful and violating the [General Data Protection Regulation (GDPR)](https://gdpr.eu/what-is-gdpr/#:~:text=The%20General%20Data%20Protection%20Regulation,to%20people%20in%20the%20EU.). 
+since they considered it as unlawful and violating the [General Data Protection Regulation (GDPR)](https://gdpr.eu/what-is-gdpr/#:~:text=The%20General%20Data%20Protection%20Regulation,to%20people%20in%20the%20EU.). 
 This is the case of [France](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply), 
 [Italy](https://www.cpomagazine.com/data-protection/italy-bans-google-analytics-over-improper-eu-us-data-transfers/), [Austria](https://matomo.org/blog/2022/01/google-analytics-gdpr-violation/) and [Denmark](https://cookie-script.com/privacy-laws/danish-dpa-outlaws-using-google-analytics), among others. More details can be found on [this webpage](https://plausible.io/blog/google-analytics-illegal).
 
@@ -57,7 +57,7 @@ Therefore, it does not slow down your website.
 3. [Plausible Analytics](https://plausible.io) respects the privacy of the visitors
 and do not use any cookies.
 
-You can find more reasons to use  [Plausible Analytics](https://plausible.io) in
+You can find more reasons to use [Plausible Analytics](https://plausible.io) in
 its own [GitHub repository](https://github.com/plausible/analytics/) as it is open-source.
 
 
@@ -87,7 +87,29 @@ and by searching with `Cmd + F` the character string `data-domain`.
 6. if everything went according to the plan, you will receive an email starting 
 with "Congrats! The Plausible script has been installed correctly on [your website]."
 
-Congratulations, you made it!
+
+ ***<p style="text-align: center;">Congratulations, you made it!!</p>***
+
+## Analyse your data with the R package [`plausibler`](https://github.com/giocomai/plausibler)
+
+With the R package [`plausibler`](https://github.com/giocomai/plausibler), you can make queries and summarise your website traffic metrics
+directly from your R console. 
+
+You will only need to get an API key which you can easily generate. You
+can access to your settings page by clicking on the little three vertical dots that are located next
+to your username at the top of the page on the right in [Plausible Analytics](https://plausible.io). When you scroll down the page, you will see a 
+section called "API Keys" where you can generate and then copy an API Key into the
+function `plausibler::pa_set()` as explained in the `README` file of the GitHub repository [`plausibler`](https://github.com/giocomai/plausibler).
+
+Then, follow the `README` instructions and you will be able to obtain all your website statistics right in your R session. 
+
+ 
 
 
-Then, you can push
+## Acknowledgements
+
+Many thanks to the author of [`plausibler`](https://github.com/giocomai/plausibler), namely [Giorgio Comai](https://github.com/giocomai), and to [Seth Ariel Green](https://github.com/setgree) for 
+[his GitHub issue](https://github.com/rstudio/blogdown/issues/731) that allowed me
+to discover [Plausible Analytics](https://plausible.io).
+
+ ***<p style="text-align: center;">Thank you for reading this article and have fun!</p>***
