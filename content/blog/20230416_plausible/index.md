@@ -2,6 +2,8 @@
 author: Layal Christine Lettry
 categories:
 - R
+- Plausible
+- Hugo
 date: "2023-04-26"
 draft: false
 excerpt: How to integrate Plausible Analytics into your Hugo Website
