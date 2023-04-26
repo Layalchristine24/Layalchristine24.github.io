@@ -2,7 +2,7 @@
 author: Layal Christine Lettry
 categories:
 - R
-date: "2023-04-16"
+date: "2023-04-26"
 draft: false
 excerpt: How to integrate Plausible Analytics into your Hugo Website
 layout: single
