@@ -110,7 +110,7 @@ Then, follow the `README` instructions and you will be able to obtain all your w
 
 ## Acknowledgements
 
-Many thanks to the author of [`plausibler`](https://github.com/giocomai/plausibler), namely [Giorgio Comai](https://github.com/giocomai), and to [Seth Ariel Green](https://github.com/setgree) for 
+Many thanks to [Plausible Analytics](https://plausible.io), to the author of [`plausibler`](https://github.com/giocomai/plausibler), namely [Giorgio Comai](https://github.com/giocomai), and to [Seth Ariel Green](https://github.com/setgree) for 
 [his GitHub issue](https://github.com/rstudio/blogdown/issues/731) that allowed me
 to discover [Plausible Analytics](https://plausible.io).
 
