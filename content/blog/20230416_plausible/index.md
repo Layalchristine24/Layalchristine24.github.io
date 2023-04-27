@@ -90,7 +90,7 @@ and by searching with `Cmd + F` the character string `data-domain`.
 with "Congrats! The Plausible script has been installed correctly on [your website]."
 
 
- ***<p style="text-align: center;">Congratulations, you made it!!</p>***
+ ***<p style="text-align: center;">Congratulations, you made it!</p>***
 
 ## Analyse your data with the R package [`plausibler`](https://github.com/giocomai/plausibler)
 
