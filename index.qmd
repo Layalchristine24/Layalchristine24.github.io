@@ -1,7 +1,66 @@
 ---
-title: "Layalchristine24.github.io"
+page-layout: full
 ---
 
-This is a Quarto website.
+::: {.banner}
+![](image/myprofile.jpg){.circular width="1000px" fig-align="center" alt="Profile photo of the author with flowers and a gold and silver painting in the background."}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: {.centered}
+# Layal Christine Lettry
+
+Econometrician, data scientist, and R enthusiast.
+
+:::
+
+:::
+
+```{r}
+#| echo: false
+# Copyright to djnavarro: https://github.com/djnavarro/djnavarro.github.io/blob/main/index.qmd
+add_card <- function(src, title, text, url, link_text, img_alt) {
+  lines <- c(
+    '<div class="g-col-12 g-col-md-6 g-col-xl-4">',
+    '<div class="card h-100">',
+    paste0(
+      '<a href="', 
+      url, 
+      '"><img src="', 
+      src, 
+      '"',
+      'alt = "',
+      img_alt,
+      '"',
+      'class="card-img-top"></a>'
+    ),
+    '<div class="card-body">',
+    paste0('<h2 class="card-title">', title, '</h2>'),
+    paste0('<p class="card-text">', text, '</p>'),
+    '</div>',
+    '<div class="card-footer">',
+    paste0('<a href="', url, '" class="btn btn-primary">', link_text, '</a>'),
+    '</div>',
+    '</div>',
+    '</div>'
+  )
+  cat(lines, sep="\n")
+}
+```
+
+::: {.grid}
+```{r}
+#| echo: false
+#| results: asis
+add_card(
+  src = "image/rdiscovery_profile.jpg",
+  title = "rdiscovery Blog", 
+  text = "I write a blog about all my noteworthy R discoveries, \"rdiscovery\". It covers a variety of topics regarding the R utilization and its packages.",
+  url = "https://rdiscovery.netlify.app",
+  img_alt = "A superhero cat",
+  link_text = "rdiscovery.netlify.app"
+)
+```
+:::
+
+<!-- Mastodon verification -->
+
+<a rel="me" style="display:none" href="https://fosstodon.org/@layal">Hidden link used to verify my account on fosstodon.org</a> <a rel="me" style="display:none" href="https://linkedin.com/in/layal-christine-lettry-529b4471/">Hidden link used to verify my account on LinkedIn</a> <a rel="me" style="display:none" href="https://twitter.com/LettryL">Hidden link used to verify my account on Twitter</a> <a rel="me" style="display:none" href="https://github.com/Layalchristine24">Hidden link used to verify my account on GitHub</a>
