@@ -1,0 +1,23 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/LettryL
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/layal-christine-lettry-529b4471/
+    - icon: github
+      text: Github
+      href: https://github.com/Layalchristine24/rdiscovery
+    - icon: mastodon
+      text: Mastodon
+      href: https://fosstodon.org/@layal
+---
+
+Welcome to my professional website! 
+
+I intend to present myself and my work through blog posts and specific websites.

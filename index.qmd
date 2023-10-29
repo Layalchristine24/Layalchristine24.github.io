@@ -58,6 +58,14 @@ add_card(
   img_alt = "A superhero cat",
   link_text = "rdiscovery.netlify.app"
 )
+add_card(
+  src = "image/lclettry-pub_profile.jpg",
+  title = "My Publications, Contributions and Talks", 
+  text = "In this blog, I share with you my publications, contributions, and talks in the form of posts.",
+  url = "https://lclettry-pub.netlify.app",
+  img_alt = "A royal cat",
+  link_text = "lclettry-pub.netlify.app"
+)
 ```
 :::
 

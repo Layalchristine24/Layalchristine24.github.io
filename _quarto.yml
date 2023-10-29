@@ -12,16 +12,18 @@ website:
     background: "#0571B0"
     logo: "image/favicon/apple-touch-icon.png"
     left:
-      - href: index.qmd
-        text: Home
-      - bio.qmd
+      - href: index.xml
+        text: RSS
     right:
+      - about.qmd
       - text: Sites
         menu:
         - href: https://layalchristinelettry.rbind.io
           text: Homepage
         - href: https://rdiscovery.netlify.app
           text: rdiscovery Blog
+        - href: https://lclettry-pub.netlify.app
+          text: My Publications, Contributions and Talks
       - text: GitHub
         menu:
         - icon: github
@@ -51,6 +53,8 @@ website:
         menu: 
         - href: https://orcid.org/0009-0008-6396-0523
           text: ORCID
+        - href: https://www.unifr.ch/inf/asam/en/layal-lettry
+          text: ASAM Group UniFr
         - href: https://www.researchgate.net/profile/Layal-Lettry
           text: ResearchGate
         - href: https://unifr.academia.edu/LayalChristineLettry
