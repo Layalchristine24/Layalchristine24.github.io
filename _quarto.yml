@@ -16,6 +16,7 @@ website:
         text: RSS
     right:
       - about.qmd
+      - bio.qmd
       - text: Sites
         menu:
         - href: https://layalchristinelettry.rbind.io
