@@ -45,7 +45,7 @@ add_card <- function(src, title, text, url, link_text, img_alt) {
 ```
 
 ::: grid
-```{r}
+```{r cards}
 #| echo: false
 #| results: asis
 add_card(
@@ -69,7 +69,7 @@ add_card(
   title = "My Professional News", 
   text = "Thrilled to share the highlights of my professional journey with you!",
   url = "https://lclettry-pronews.netlify.app",
-  img_alt = "A abstract cat",
+  img_alt = "An abstract cat",
   link_text = "lclettry-pronews.netlify.app"
 )
 ```
