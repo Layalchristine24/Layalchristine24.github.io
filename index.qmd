@@ -2,16 +2,14 @@
 page-layout: full
 ---
 
-::: {.banner}
+::: banner
 ![](image/myprofile.jpg){.circular width="1000px" fig-align="center" alt="Profile photo of the author with flowers and a gold and silver painting in the background."}
 
-::: {.centered}
+::: centered
 # Layal Christine Lettry
 
 Econometrician, data scientist, and R enthusiast.
-
 :::
-
 :::
 
 ```{r}
@@ -46,14 +44,14 @@ add_card <- function(src, title, text, url, link_text, img_alt) {
 }
 ```
 
-::: {.grid}
+::: grid
 ```{r}
 #| echo: false
 #| results: asis
 add_card(
   src = "image/rdiscovery_profile.jpg",
   title = "rdiscovery Blog", 
-  text = "I write a blog about all my noteworthy R discoveries, \"rdiscovery\". It covers a variety of topics regarding the R utilization and its packages.",
+  text = "Explore R with me in my blog \"rdiscovery\"!\n It covers a variety of topics regarding the R utilization and its packages.",
   url = "https://rdiscovery.netlify.app",
   img_alt = "A superhero cat",
   link_text = "rdiscovery.netlify.app"
@@ -61,10 +59,18 @@ add_card(
 add_card(
   src = "image/lclettry-pub_profile.jpg",
   title = "My Publications, Contributions and Talks", 
-  text = "In this blog, I share with you my publications, contributions, and talks in the form of posts.",
+  text = "Happy to share my publications, contributions and talks with you!",
   url = "https://lclettry-pub.netlify.app",
   img_alt = "A royal cat",
   link_text = "lclettry-pub.netlify.app"
+)
+add_card(
+  src = "image/lclettry-pronews_profile.jpg",
+  title = "My Professional News", 
+  text = "Thrilled to share the highlights of my professional journey with you!",
+  url = "https://lclettry-pronews.netlify.app",
+  img_alt = "A abstract cat",
+  link_text = "lclettry-pronews.netlify.app"
 )
 ```
 :::
