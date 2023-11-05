@@ -18,6 +18,7 @@ about:
       href: https://fosstodon.org/@layal
 ---
 
-Welcome to my professional website! 
+Welcome to my professional website!
 
-I intend to present myself and my work through blog posts and specific websites.
+I intend to present myself through my work with blog posts and specific websites.
+

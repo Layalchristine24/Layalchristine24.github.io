@@ -1,18 +1,29 @@
 ---
 title: "Bio"
 ---
-# Professional experience
+## Professional experience
 
-## Current work
+### Current position
 
-## Past work
+Data scientist at [cynkra GmbH](https://www.cynkra.com) since October 2022.
 
-# Education
+### Previous positions
 
-## Academics
+External collaborator for the [Applied Statistics and Modelling (ASAM) Group](https://www.unifr.ch/inf/asam/en/) between 2018 and 2022.
 
-## Awards
+Econometrician at the [Federal Social Insurance Office (FSIO)](https://www.bsv.admin.ch/bsv/en/home.html) between 2017 and 2022. 
 
-# Technical skills
+Research Assistant, Department of Economics ([Chair of Industrial Economics](https://www.unifr.ch/industrie/en/)) at the University of Fribourg, between 2016 and 2017.
 
-# Human languages
+Undergraduate Assistant in Statistics, [Department of Informatics](https://www.unifr.ch/inf/en/) at the University of Fribourg, between 2013 and 2015. 
+
+
+## Education
+
+### Academics
+
+### Awards
+
+## Technical skills
+
+## Human languages

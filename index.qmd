@@ -9,6 +9,7 @@ page-layout: full
 # Layal Christine Lettry
 
 Econometrician, data scientist, and R enthusiast.
+
 :::
 :::
 
