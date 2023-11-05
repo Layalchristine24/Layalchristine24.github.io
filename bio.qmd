@@ -1,29 +1,63 @@
 ---
-title: "Bio"
+title: "Biography"
 ---
 ## Professional experience
 
 ### Current position
 
-Data scientist at [cynkra GmbH](https://www.cynkra.com) since October 2022.
+- Since October 2022: Data scientist at [cynkra GmbH](https://www.cynkra.com) .
 
 ### Previous positions
 
-External collaborator for the [Applied Statistics and Modelling (ASAM) Group](https://www.unifr.ch/inf/asam/en/) between 2018 and 2022.
+- February 2021 - September 2022: Part-time econometrician at the [Federal Social Insurance Office (FSIO)](https://www.bsv.admin.ch/bsv/en/home.html), Berne, Switzerland, [Mathematics, Analyses and Statistics (MAS) Domain](https://www.bsv.admin.ch/bsv/en/home/fsio/organisation/mas.html), Mathematics Sector.
 
-Econometrician at the [Federal Social Insurance Office (FSIO)](https://www.bsv.admin.ch/bsv/en/home.html) between 2017 and 2022. 
+- August 2020 - January 2021: Maternity leave.
 
-Research Assistant, Department of Economics ([Chair of Industrial Economics](https://www.unifr.ch/industrie/en/)) at the University of Fribourg, between 2016 and 2017.
+- July 2017 - July 2020: Full-time econometrician at the [Federal Social Insurance Office (FSIO)](https://www.bsv.admin.ch/bsv/en/home.html), Berne, Switzerland, [Mathematics, Analyses and Statistics (MAS) Domain](https://www.bsv.admin.ch/bsv/en/home/fsio/organisation/mas.html), Mathematics Sector.
 
-Undergraduate Assistant in Statistics, [Department of Informatics](https://www.unifr.ch/inf/en/) at the University of Fribourg, between 2013 and 2015. 
+- February 2016 - June 2017: Research Assistant in Microeconomics, Department of Economics ([Chair of Industrial Economics](https://www.unifr.ch/industrie/en/)) at the [University of Fribourg](https://www.unifr.ch/home/en/).
+
+- September 2013 - December 2015: Undergraduate Assistant in Statistics, [Department of Informatics](https://www.unifr.ch/inf/en/) at the [University of Fribourg](https://www.unifr.ch/home/en/). 
 
 
 ## Education
 
 ### Academics
 
+- May 2018 - September 2022: **PhD Student in Economics and Social Sciences and external collaborator**, [Applied Statistics and Modelling (ASAM) Group](https://www.unifr.ch/inf/asam/en/), Department of Informatics, [University of Fribourg](https://www.unifr.ch/home/en/). Field: Econometrics.
+
+- August 2016 - January 2017: **Swiss Program for Beginning Doctoral Students 2016-2017**, [Study Center Gerzensee](http://www.szgerzensee.ch/courses/swiss-program-for-beginning-doctoral-students-in-economics), Gerzensee, Switzerland, Confirmation of course participation.
+
+- February 2016 - June 2017: **PhD Student in Economics and Social Sciences**, Department of Economics ([Chair of Industrial Economics](https://www.unifr.ch/industrie/en/)) at the [University of Fribourg](https://www.unifr.ch/home/en/). Field: Microeconomics.
+
+- September 2014 - February 2016: **Master of Arts in Economics**, [University of Fribourg](https://www.unifr.ch/home/en/), Fribourg, Switzerland,
+*summa cum laude*.
+
+-  September 2011 - August 2014: **Bachelor of Arts in Management**, [University of Fribourg](https://www.unifr.ch/home/en/), Fribourg, Switzerland, *magna cum laude*.
+
+ 
 ### Awards
 
+- October 2016: **Raiffeisen Award**, University of Fribourg , Fribourg, Switzerland, *summa cum laude*, average: 5.71. Best Master Degree’s average of a Fribourg Student in Economics and Social Sciences.
+
+- May 2009: **Pierre Esseiva Award 2009**, Forum des Langues Anciennes (FLA), Fribourg, Switzerland, *praemium tertium ex aequo*. Eleventh competition of Latin translation of the high schools in Fribourg.
+
+- May 2006: **Pierre Esseiva Award 2006**, Forum des Langues Anciennes (FLA), Fribourg, Switzerland, *praemium secundum*. Eighth competition of Latin translation of the secondary schools in Fribourg.
+
+
+
+### Former Education
+
+- September 2010 - March 2011: **Certificate in Advanced English/Council of Europe Level C1**, [Kaplan International College](http://www.kaplaninternational.com/fr/royaume-uni/londres/ecole-anglais-covent-garden), London, England/UK, grade: C.
+
+- September 2006 - July 2010: **Maturity**, [St. Michael’s College](http://www.csmfr.ch/www/Bienvenue-au-College-St-Michel), Fribourg, Switzerland. Options: Latin; Bilingual French-German. Specific Option: Spanish. Complementary Option: Philosophy.
+
 ## Technical skills
+
+- [R](https://www.r-project.org) statistical programming language, [tidyverse](https://www.tidyverse.org), package development.
+
+- [Git](https://git-scm.com), [Github](https://github.com), [Gitea](https://about.gitea.com).
+
+- [RStudio](https://posit.co), [EViews](https://www.eviews.com/home.html), [SAS](https://www.sas.com/de_ch/home.html), MATLAB, STATA, SPSS.
 
 ## Human languages
