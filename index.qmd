@@ -8,7 +8,11 @@ page-layout: full
 ::: centered
 # Layal Christine Lettry
 
-Econometrician, data scientist, and R enthusiast.
+Econometrician and Data Scientist
+
+R enthusiast and Blogger
+
+Based in Switzerland
 
 :::
 :::

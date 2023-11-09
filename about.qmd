@@ -12,7 +12,7 @@ about:
       href: https://linkedin.com/in/layal-christine-lettry-529b4471/
     - icon: github
       text: Github
-      href: https://github.com/Layalchristine24/rdiscovery
+      href: https://github.com/Layalchristine24/Layalchristine24.github.io
     - icon: mastodon
       text: Mastodon
       href: https://fosstodon.org/@layal
