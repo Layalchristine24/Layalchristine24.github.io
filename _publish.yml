@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 4d7109c3-f7d7-4ad3-97df-9c0f1a6c5f50
+      url: 'https://lclettry.com'
