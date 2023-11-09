@@ -54,10 +54,27 @@ title: "Biography"
 
 ## Technical skills
 
-- [R](https://www.r-project.org) statistical programming language, [tidyverse](https://www.tidyverse.org), package development.
+- [R](https://www.r-project.org) statistical programming language, [tidyverse](https://www.tidyverse.org), package development, reporting.
+
+- 
 
 - [Git](https://git-scm.com), [Github](https://github.com), [Gitea](https://about.gitea.com).
 
-- [RStudio](https://posit.co), [EViews](https://www.eviews.com/home.html), [SAS](https://www.sas.com/de_ch/home.html), MATLAB, STATA, SPSS.
+- [RStudio](https://posit.co), [SPSS](https://www.ibm.com/products/spss-statistics), [EViews](https://www.eviews.com/home.html),  [STATA](https://www.stata.com), [SAS](https://www.sas.com/de_ch/home.html), [MATLAB](https://ch.mathworks.com/products/matlab.html).
 
 ## Human languages
+
+Please refer to [the Common European Framework of Reference for Languages: Learning, Teaching, Assessment (CEFR)](https://www.coe.int/en/web/portfolio/self-assessment-grid) regarding the level estimates.
+
+- French (1st mother tongue)
+
+- English (C1)
+
+- German (B2+)
+
+- Spanish (B2)
+
+- Arabic (A2, 2nd mother tongue)
+
+## Teaching
+
