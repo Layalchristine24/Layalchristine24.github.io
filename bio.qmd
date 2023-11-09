@@ -70,6 +70,8 @@ title: "Biography"
 
 -   [R](https://www.r-project.org) statistical programming language, [tidyverse](https://www.tidyverse.org), package development, reporting.
 
+- [LaTeX](https://www.latex-project.org) typesetting system.
+
 -   [Git](https://git-scm.com), [GitHub](https://github.com), [Gitea](https://about.gitea.com).
 
 -   [RStudio](https://posit.co), [SPSS](https://www.ibm.com/products/spss-statistics), [EViews](https://www.eviews.com/home.html), [STATA](https://www.stata.com), [SAS](https://www.sas.com/de_ch/home.html), [MATLAB](https://ch.mathworks.com/products/matlab.html).
