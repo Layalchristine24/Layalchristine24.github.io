@@ -21,7 +21,7 @@ website:
       - bio.qmd
       - text: Sites
         menu:
-        - href: https://layalchristinelettry.rbind.io
+        - href: https://lclettry.com
           text: Homepage
         - href: https://rdiscovery.netlify.app
           text: rdiscovery Blog
@@ -71,9 +71,9 @@ website:
         
   page-footer:
     center:
-      - href: https://layalchristinelettry.rbind.io
-        text: layalchristinelettry.rbind.io
-  site-url: https://layalchristinelettry.rbind.io
+      - href: https://lclettry.com
+        text: lclettry.com
+  site-url: https://lclettry.com
   repo-url: https://github.com/Layalchristine24/Layalchristine24.github.io
   open-graph: true
   search: true
