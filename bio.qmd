@@ -1,44 +1,42 @@
 ---
 title: "Biography"
 ---
+
 ## Professional experience
 
 ### Current position
 
-- Since October 2022: Data scientist at [cynkra GmbH](https://www.cynkra.com) .
+- Since October 2022: Data scientist at [cynkra GmbH](https://www.cynkra.com), Zurich, Switzerland.
 
 ### Previous positions
 
-- February 2021 - September 2022: Part-time econometrician at the [Federal Social Insurance Office (FSIO)](https://www.bsv.admin.ch/bsv/en/home.html), Berne, Switzerland, [Mathematics, Analyses and Statistics (MAS) Domain](https://www.bsv.admin.ch/bsv/en/home/fsio/organisation/mas.html), Mathematics Sector.
+- February 2021 -- September 2022: Part-time econometrician at the [Federal Social Insurance Office (FSIO)](https://www.bsv.admin.ch/bsv/en/home.html), Berne, Switzerland, [Mathematics, Analyses and Statistics (MAS) Domain](https://www.bsv.admin.ch/bsv/en/home/fsio/organisation/mas.html), Mathematics Sector.
 
-- August 2020 - January 2021: Maternity leave.
+- August 2020 -- January 2021: Maternity leave.
 
-- July 2017 - July 2020: Full-time econometrician at the [Federal Social Insurance Office (FSIO)](https://www.bsv.admin.ch/bsv/en/home.html), Berne, Switzerland, [Mathematics, Analyses and Statistics (MAS) Domain](https://www.bsv.admin.ch/bsv/en/home/fsio/organisation/mas.html), Mathematics Sector.
+- July 2017 -- July 2020: Full-time econometrician at the [Federal Social Insurance Office (FSIO)](https://www.bsv.admin.ch/bsv/en/home.html), Berne, Switzerland, [Mathematics, Analyses and Statistics (MAS) Domain](https://www.bsv.admin.ch/bsv/en/home/fsio/organisation/mas.html), Mathematics Sector.
 
-- February 2016 - June 2017: Research Assistant in Microeconomics, Department of Economics ([Chair of Industrial Economics](https://www.unifr.ch/industrie/en/)) at the [University of Fribourg](https://www.unifr.ch/home/en/).
+- February 2016 -- June 2017: Research Assistant in Microeconomics, Department of Economics ([Chair of Industrial Economics](https://www.unifr.ch/industrie/en/)) at the [University of Fribourg](https://www.unifr.ch/home/en/).
 
-- September 2013 - December 2015: Undergraduate Assistant in Statistics, [Department of Informatics](https://www.unifr.ch/inf/en/) at the [University of Fribourg](https://www.unifr.ch/home/en/). 
-
+- September 2013 -- December 2015: Undergraduate Assistant in Statistics, [Department of Informatics](https://www.unifr.ch/inf/en/) at the [University of Fribourg](https://www.unifr.ch/home/en/).
 
 ## Education
 
 ### Academics
 
-- May 2018 - September 2022: **PhD Student in Economics and Social Sciences and external collaborator**, attached to Prof. Dr. Laurent Donzé, [Applied Statistics and Modelling (ASAM) Group](https://www.unifr.ch/inf/asam/en/), Department of Informatics, [University of Fribourg](https://www.unifr.ch/home/en/). Field: Econometrics.
+- May 2018 -- September 2022: **PhD Student in Economics and Social Sciences and external collaborator**, attached to Prof. Dr. Laurent Donzé, [Applied Statistics and Modelling (ASAM) Group](https://www.unifr.ch/inf/asam/en/), Department of Informatics, [University of Fribourg](https://www.unifr.ch/home/en/). Field: Econometrics.
 
-- August 2016 - January 2017: **Swiss Program for Beginning Doctoral Students 2016-2017**, [Study Center Gerzensee](http://www.szgerzensee.ch/courses/swiss-program-for-beginning-doctoral-students-in-economics), Gerzensee, Switzerland, Confirmation of course participation.
+- August 2016 -- January 2017: **Swiss Program for Beginning Doctoral Students 2016-2017**, [Study Center Gerzensee](http://www.szgerzensee.ch/courses/swiss-program-for-beginning-doctoral-students-in-economics), Gerzensee, Switzerland, Confirmation of course participation.
 
-- February 2016 - June 2017: **PhD Student in Economics and Social Sciences**, attached to Prof. Dr. Holger Herz, Department of Economics ([Chair of Industrial Economics](https://www.unifr.ch/industrie/en/)) at the [University of Fribourg](https://www.unifr.ch/home/en/). Field: Microeconomics.
+- February 2016 -- June 2017: **PhD Student in Economics and Social Sciences**, attached to Prof. Dr. Holger Herz, Department of Economics ([Chair of Industrial Economics](https://www.unifr.ch/industrie/en/)) at the [University of Fribourg](https://www.unifr.ch/home/en/). Field: Microeconomics.
 
-- September 2014 - February 2016: **Master of Arts in Economics**, [University of Fribourg](https://www.unifr.ch/home/en/), Fribourg, Switzerland,
-*summa cum laude*.
+- September 2014 -- February 2016: **Master of Arts in Economics**, [University of Fribourg](https://www.unifr.ch/home/en/), Fribourg, Switzerland, *summa cum laude*.
 
--  September 2011 - August 2014: **Bachelor of Arts in Management**, [University of Fribourg](https://www.unifr.ch/home/en/), Fribourg, Switzerland, *magna cum laude*.
+- September 2011 -- August 2014: **Bachelor of Arts in Management**, [University of Fribourg](https://www.unifr.ch/home/en/), Fribourg, Switzerland, *magna cum laude*.
 
- 
 ### Awards
 
-- October 2016: **Raiffeisen Award**, University of Fribourg , Fribourg, Switzerland, *summa cum laude*, average: 5.71. Best Master Degree’s average of a Fribourg Student in Economics and Social Sciences.
+- October 2016: **Raiffeisen Award**, University of Fribourg , Fribourg, Switzerland, *summa cum laude*, average: 5.71. Best Master Degree's average of a Fribourg Student in Economics and Social Sciences.
 
 - May 2009: **Pierre Esseiva Award 2009**, Forum des Langues Anciennes (FLA), Fribourg, Switzerland, *praemium tertium ex aequo*. Eleventh competition of Latin translation of the high schools in Fribourg.
 
@@ -48,27 +46,25 @@ title: "Biography"
 
 - November 2022: **Certified ScrumMaster**, [DasScrumTeam](http://www.dasscrumteam.com/en), *Certified ScrumMaster (202201126)* Training with Peter Beck, Zurich, Switzerland. [Certificate](https://certification.scrumalliance.org/accounts/1446608-layal-christine/certifications/1689119-csm) active through 17/11/2024.
 
-- November 2018 - January 2020: **Certificate of Advanced Studies (CAS) in Populations Studies**, University of Geneva, with Prof. Dr. Philippe Wanner, Geneva, Switzerland. Field: Demography and Socioeconomics.
+- November 2018 -- January 2020: **Certificate of Advanced Studies (CAS) in Populations Studies**, University of Geneva, with Prof. Dr. Philippe Wanner, Geneva, Switzerland. Field: Demography and Socioeconomics.
 
-- February 2019 – July 2019: **Classification Methods**, Certificate of Attendance, Spring Semester 2019, with Prof. Dr. Laurent Donzé, professor at the University of Fribourg, ASAM
-Group , Department of Informatics, Switzerland. 
+- February 2019 -- July 2019: **Classification Methods**, Certificate of Attendance, Spring Semester 2019, with Prof. Dr. Laurent Donzé, professor at the University of Fribourg, ASAM Group , Department of Informatics, Switzerland.
 
 - September 2019: **Transformation Analysis in R**, Certificate of Attendance, with Dr. Torsten Hothorn, University of Zurich, Epidemiology, Biostatistics and Prevention Institute, Zurich R courses program, Zurich, Switzerland.
 
-
 ### Former Education
 
-- September 2010 - March 2011: **Certificate in Advanced English/Council of Europe Level C1**, [Kaplan International College](http://www.kaplaninternational.com/fr/royaume-uni/londres/ecole-anglais-covent-garden), London, England/UK, grade: C.
+- September 2010 -- March 2011: **Certificate in Advanced English/Council of Europe Level C1**, [Kaplan International College](http://www.kaplaninternational.com/fr/royaume-uni/londres/ecole-anglais-covent-garden), London, England/UK, grade: C.
 
-- September 2006 - July 2010: **Maturity**, [St. Michael’s College](http://www.csmfr.ch/www/Bienvenue-au-College-St-Michel), Fribourg, Switzerland. Options: Latin; Bilingual French-German. Specific Option: Spanish. Complementary Option: Philosophy.
+- September 2006 -- July 2010: **Maturity**, [St. Michael's College](http://www.csmfr.ch/www/Bienvenue-au-College-St-Michel), Fribourg, Switzerland. Options: Latin; Bilingual French-German. Specific Option: Spanish. Complementary Option: Philosophy.
 
 ## Professional Affiliations
 
-- July 2018 – today:  [Swiss Statistical Society (SSS)](http://www.stat.ch/en/). Member.
+- July 2018 -- today: [Swiss Statistical Society (SSS)](http://www.stat.ch/en/). Member.
 
-- August 2018 – today: [adminR](http://www.meetup.com/fr-FR/adminR/). Member.
+- August 2018 -- today: [adminR](http://www.meetup.com/fr-FR/adminR/). Member.
 
-- March 2022 – today: [Swiss Society of Economics and Statistics (SSES)](http://www.sgvs.ch/news). Member.
+- March 2022 -- today: [Swiss Society of Economics and Statistics (SSES)](http://www.sgvs.ch/news). Member.
 
 ## Technical skills
 
@@ -76,7 +72,7 @@ Group , Department of Informatics, Switzerland.
 
 - [Git](https://git-scm.com), [GitHub](https://github.com), [Gitea](https://about.gitea.com).
 
-- [RStudio](https://posit.co), [SPSS](https://www.ibm.com/products/spss-statistics), [EViews](https://www.eviews.com/home.html),  [STATA](https://www.stata.com), [SAS](https://www.sas.com/de_ch/home.html), [MATLAB](https://ch.mathworks.com/products/matlab.html).
+- [RStudio](https://posit.co), [SPSS](https://www.ibm.com/products/spss-statistics), [EViews](https://www.eviews.com/home.html), [STATA](https://www.stata.com), [SAS](https://www.sas.com/de_ch/home.html), [MATLAB](https://ch.mathworks.com/products/matlab.html).
 
 ## Human languages
 
@@ -96,18 +92,18 @@ Please refer to [the Common European Framework of Reference for Languages: Learn
 
 ### As an undergraduate assistant at the University of Fribourg, Switzerland
 
-- September 2013 – January 2014: **Statistique pour économistes**. BA Course in French, Exercises, 1st Year, Fall semester.
+- September 2013 -- January 2014: **Statistique pour économistes**. BA Course in French, Exercises, 1st Year, Fall semester.
 
-- February 2014 – June 2014: **Calcul des Probabilités**. BA Course in French, Exercises, 1st Year, Spring semester.
+- February 2014 -- June 2014: **Calcul des Probabilités**. BA Course in French, Exercises, 1st Year, Spring semester.
 
-- September 2014 – January 2015: **Statistik I**. BA Course French-German, Exercises (with SPSS), 1st Year, Fall semester.
+- September 2014 -- January 2015: **Statistik I**. BA Course French-German, Exercises (with SPSS), 1st Year, Fall semester.
 
-- February 2015 – June 2015: **Introduction à la statistique II**. BA Course French, Exercises, 2nd Year, Spring semester.
+- February 2015 -- June 2015: **Introduction à la statistique II**. BA Course French, Exercises, 2nd Year, Spring semester.
 
-- September 2015 – January 2016: **Statistik I**. BA Course French-German, Exercises (with SPSS), 1st Year, Fall semester.
+- September 2015 -- January 2016: **Statistik I**. BA Course French-German, Exercises (with SPSS), 1st Year, Fall semester.
 
 ### As a research assistant at the University of Fribourg, Switzerland
 
-- February 2016 – June 2016: **Mikroökonomie II**. BA Course in German, Exercises, 1st Year, Spring semester.
+- February 2016 -- June 2016: **Mikroökonomie II**. BA Course in German, Exercises, 1st Year, Spring semester.
 
-- February 2017 – June 2017: **Mikroökonomie II**. BA Course in German, Exercises, 1st Year, Spring semester.
+- February 2017 -- June 2017: **Mikroökonomie II**. BA Course in German, Exercises, 1st Year, Spring semester.
