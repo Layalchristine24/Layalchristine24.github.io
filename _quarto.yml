@@ -12,8 +12,6 @@ website:
     background: "#0571B0"
     logo: "image/favicon/apple-touch-icon.png"
     left:
-      - href: index.xml
-        text: RSS
       - href: privacy.html
         text: Privacy Policy
       - href: terms_and_conditions.html
