@@ -1,0 +1,54 @@
+---
+title: Contact
+format: 
+  html: 
+    grid:
+      margin-width: 0px
+      sidebar-width: 0px
+
+header-includes: >
+  <link rel="stylesheet" href="assets/contact.css">
+resources:
+  - assets/contact.css
+---
+<!-- copyright to https://github.com/spcanelon -->
+<!-- https://github.com/spcanelon/silvia/blob/32853dd0e70a71514b0922ee306f80ed5897f776/contact.qmd --> 
+
+::: {.grid}
+
+::: {.g-col-5 #note}
+
+# Connect through Your Ideas
+
+Feel free to use this form to get in touch regarding speaking engagements, potential collaborations, or just to extend a friendly greeting.
+
+<!-- verification -->
+
+<a rel="me" style="display:none" href="https://fosstodon.org/@layal">Hidden link used to verify my account on fosstodon.org</a> <a rel="me" style="display:none" href="https://linkedin.com/in/layal-christine-lettry-529b4471/">Hidden link used to verify my account on LinkedIn</a> <a rel="me" style="display:none" href="https://twitter.com/LettryL">Hidden link used to verify my account on Twitter</a> <a rel="me" style="display:none" href="https://github.com/Layalchristine24">Hidden link used to verify my account on GitHub</a>
+
+:::
+<!-- source: https://github.com/mccarthy-m-g/tidytales/blob/main/about/index.qmd#L24-L46 -->
+
+::: {.g-col-1}
+:::
+
+::: {.g-col-6 #form}
+
+<form action="https://formspree.io/f/mjvlpaed" method="POST" accept-charset="utf-8">
+
+
+<label for="full-name">Full Name</label>
+<input type="text" name="name" id="full-name" class="form-control" placeholder="First and Last" required>
+
+<label for="email-address">Email Address</label>
+<input type="email" name="_replyto" id="email-address" class="form-control" placeholder="your@email.com" required>
+
+<label for="message">Message</label>
+  <textarea rows="6" name="message" id="message" class="form-control" placeholder="Your text comes here." required></textarea>
+
+<button type="submit" class="btn btn-primary mt-4">Send message</button>
+</form>
+:::
+
+:::
+<!-- end grid -->
