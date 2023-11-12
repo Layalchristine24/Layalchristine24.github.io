@@ -77,6 +77,11 @@ website:
     center:
       - href: https://lclettry.com
         text: lclettry.com
+    right: 
+      - href: privacy.html
+        text: Privacy Policy
+      - href: terms_and_conditions.html
+        text: Terms and Conditions
   site-url: https://lclettry.com
   repo-url: https://github.com/Layalchristine24/Layalchristine24.github.io
   open-graph: true
