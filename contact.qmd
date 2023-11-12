@@ -20,7 +20,7 @@ resources:
 
 # Connect through Your Ideas
 
-Feel free to use this form to get in touch regarding speaking engagements, potential collaborations, or just to extend a friendly greeting.
+Feel free to use this form to reach out about my blog posts, inquire about my work, discuss potential collaborations, or simply to share a friendly greeting.
 
 <!-- verification -->
 
