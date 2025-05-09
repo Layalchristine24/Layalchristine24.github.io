@@ -2,29 +2,62 @@
 title: "Biography"
 ---
 
-## Professional experience
+## Professional Experience
 
-### Current position
+### Data Science & Analytics
 
--   Since October 2022: Data scientist at [cynkra GmbH](https://www.cynkra.com), Zurich, Switzerland.
+#### Current Position
 
-### Previous positions
+-   **October 2022 -- Present**: Part-time Data Scientist at [cynkra GmbH](https://www.cynkra.com), Zurich, Switzerland
+    -   Working in a flexible remote environment
+    -   Contributing to innovative data science projects
+    -   Balancing professional growth with parental responsibilities
 
--   February 2021 -- September 2022: Part-time econometrician at the [Federal Social Insurance Office (FSIO)](https://www.bsv.admin.ch/bsv/en/home.html), Berne, Switzerland, [Mathematics, Analyses and Statistics (MAS) Domain](https://www.bsv.admin.ch/bsv/en/home/fsio/organisation/mas.html), Mathematics Sector.
+#### Previous Data & Analytics Roles
 
--   June 2020 -- January 2021: Maternity leave.
+-   **February 2021 -- September 2022**: Part-time econometrician at the [Federal Social Insurance Office (FSIO)](https://www.bsv.admin.ch/bsv/en/home.html), Berne, Switzerland
+    -   Mathematics, Analyses and Statistics (MAS) Domain, Mathematics Sector
+-   **July 2017 -- May 2020**: Full-time econometrician at the [Federal Social Insurance Office (FSIO)](https://www.bsv.admin.ch/bsv/en/home.html), Berne, Switzerland
+    -   Mathematics, Analyses and Statistics (MAS) Domain, Mathematics Sector
 
--   July 2017 -- May 2020: Full-time econometrician at the [Federal Social Insurance Office (FSIO)](https://www.bsv.admin.ch/bsv/en/home.html), Berne, Switzerland, [Mathematics, Analyses and Statistics (MAS) Domain](https://www.bsv.admin.ch/bsv/en/home/fsio/organisation/mas.html), Mathematics Sector.
+### Academic & Research
 
--   February 2016 -- June 2017: Research Assistant in Microeconomics, Department of Economics ([Chair of Industrial Economics](https://www.unifr.ch/industrie/en/)) at the [University of Fribourg](https://www.unifr.ch/home/en/).
+-   **May 2018 -- September 2022**: PhD Student in Economics and Social Sciences
+    -   External collaborator with Prof. Dr. Laurent Donzé
+    -   [Applied Statistics and Modelling (ASAM) Group](https://www.unifr.ch/inf/asam/en/)
+    -   Department of Informatics, [University of Fribourg](https://www.unifr.ch/home/en/)
+    -   Field: Econometrics
+-   **February 2016 -- June 2017**: Research Assistant in Microeconomics
+    -   Department of Economics, [Chair of Industrial Economics](https://www.unifr.ch/industrie/en/)
+    -   [University of Fribourg](https://www.unifr.ch/home/en/)
+-   **September 2013 -- December 2015**: Undergraduate Assistant in Statistics
+    -   [Department of Informatics](https://www.unifr.ch/inf/en/)
+    -   [University of Fribourg](https://www.unifr.ch/home/en/)
 
--   September 2013 -- December 2015: Undergraduate Assistant in Statistics, [Department of Informatics](https://www.unifr.ch/inf/en/) at the [University of Fribourg](https://www.unifr.ch/home/en/).
+### Teaching Experience
+
+#### University of Fribourg, Switzerland
+
+##### Undergraduate Courses (2013-2017)
+
+-   **Statistics & Probability**
+    -   Statistique pour économistes (BA, French, 1st Year)
+    -   Calcul des Probabilités (BA, French, 1st Year)
+    -   Statistik I (BA, French-German, 1st Year, with SPSS)
+    -   Introduction à la statistique II (BA, French, 2nd Year)
+
+##### Microeconomics (2016-2017)
+
+-   Mikroökonomie II (BA, German, 1st Year, Spring semester)
+
+### Career Breaks
+
+-   **November 2024 -- March 2025**: Maternity leave
+-   **June 2020 -- January 2021**: Maternity leave
 
 ## Education
 
 ### Academics
-
--   May 2018 -- September 2022: **PhD Student in Economics and Social Sciences and external collaborator**, attached to Prof. Dr. Laurent Donzé, [Applied Statistics and Modelling (ASAM) Group](https://www.unifr.ch/inf/asam/en/), Department of Informatics, [University of Fribourg](https://www.unifr.ch/home/en/). Field: Econometrics.
 
 -   August 2016 -- January 2017: **Swiss Program for Beginning Doctoral Students 2016-2017**, [Study Center Gerzensee](http://www.szgerzensee.ch/courses/swiss-program-for-beginning-doctoral-students-in-economics), Gerzensee, Switzerland, Confirmation of course participation.
 
@@ -68,9 +101,9 @@ title: "Biography"
 
 ## Technical skills
 
--   [R](https://www.r-project.org) statistical programming language, [tidyverse](https://www.tidyverse.org), package development, reporting.
+-   [R](https://www.r-project.org) statistical programming language, [tidyverse](https://www.tidyverse.org), package development, reporting, data preparation, data integration.
 
-- [LaTeX](https://www.latex-project.org) typesetting system.
+-   [LaTeX](https://www.latex-project.org) typesetting system.
 
 -   [Git](https://git-scm.com), [GitHub](https://github.com), [Gitea](https://about.gitea.com).
 
@@ -89,23 +122,3 @@ Please refer to [the Common European Framework of Reference for Languages: Learn
 -   Spanish (B2)
 
 -   Arabic (A2, 2nd mother tongue)
-
-## Teaching
-
-### As an undergraduate assistant at the University of Fribourg, Switzerland
-
--   September 2013 -- January 2014: **Statistique pour économistes**. BA Course in French, Exercises, 1st Year, Fall semester.
-
--   February 2014 -- June 2014: **Calcul des Probabilités**. BA Course in French, Exercises, 1st Year, Spring semester.
-
--   September 2014 -- January 2015: **Statistik I**. BA Course French-German, Exercises (with SPSS), 1st Year, Fall semester.
-
--   February 2015 -- June 2015: **Introduction à la statistique II**. BA Course French, Exercises, 2nd Year, Spring semester.
-
--   September 2015 -- January 2016: **Statistik I**. BA Course French-German, Exercises (with SPSS), 1st Year, Fall semester.
-
-### As a research assistant at the University of Fribourg, Switzerland
-
--   February 2016 -- June 2016: **Mikroökonomie II**. BA Course in German, Exercises, 1st Year, Spring semester.
-
--   February 2017 -- June 2017: **Mikroökonomie II**. BA Course in German, Exercises, 1st Year, Spring semester.
