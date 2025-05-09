@@ -2,13 +2,23 @@
 title: "Biography"
 ---
 
-## Professional experience
+## Professional experience 
 
-### Current position
+### Current position 
 
--   Since October 2022: Data scientist at [cynkra GmbH](https://www.cynkra.com), Zurich, Switzerland.
+Since October 2022, I have been working as a Data Scientist at [cynkra GmbH](https://www.cynkra.com) based in Zurich, Switzerland. I am truly fortunate to be part of such an innovative and supportive team. 
 
-### Previous positions
+Working primarily remotely, I benefit from [cynkra](https://www.cynkra.com)'s highly flexible work environment that enables me to give my best in both my professional role and my responsibilities as a parent. 
+
+This supportive culture, combined with the opportunity to work on meaningful projects from anywhere, makes every day rewarding and fulfilling. I am grateful for the chance to grow both professionally and personally in this great work environment that embraces modern work practices.
+
+### Details
+
+-   April 2025 -- Now: Part-time Data Scientist at [cynkra GmbH](https://www.cynkra.com), Zurich, Switzerland.
+
+-   November 2024 -- March 2025: Maternity leave.
+
+-   October 2022 -- November 2024: Part-time Data Scientist at [cynkra GmbH](https://www.cynkra.com), Zurich, Switzerland.
 
 -   February 2021 -- September 2022: Part-time econometrician at the [Federal Social Insurance Office (FSIO)](https://www.bsv.admin.ch/bsv/en/home.html), Berne, Switzerland, [Mathematics, Analyses and Statistics (MAS) Domain](https://www.bsv.admin.ch/bsv/en/home/fsio/organisation/mas.html), Mathematics Sector.
 
